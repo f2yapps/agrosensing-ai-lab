@@ -24,11 +24,11 @@
   --banner-image-alt: url('../images/banners/Banner2.jpg');
 }
 
-/* Sliding banner: 0.3s overlap so next slide is full opacity before previous fades – no gap */
+/* Sliding banner: 6 slides, overlap so no gap */
 @keyframes banner-slide-fade {
   0% { opacity: 1; }
-  13.5% { opacity: 1; }
-  14.286% { opacity: 0; }
+  14% { opacity: 1; }
+  16.667% { opacity: 0; }
   100% { opacity: 0; }
 }
 
@@ -131,7 +131,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
-  animation: banner-slide-fade 28s infinite;
+  animation: banner-slide-fade 24s infinite;
   backface-visibility: hidden;
 }
 
@@ -141,7 +141,6 @@ body {
 .page-banner .banner-slide:nth-child(4) { animation-delay: -12s; }
 .page-banner .banner-slide:nth-child(5) { animation-delay: -16s; }
 .page-banner .banner-slide:nth-child(6) { animation-delay: -20s; }
-.page-banner .banner-slide:nth-child(7) { animation-delay: -24s; }
 
 .page-banner::after {
   content: '';
@@ -152,18 +151,16 @@ body {
   pointer-events: none;
 }
 
-/* Running text ticker – transparent water-colour background */
+/* Running text ticker – transparent background */
 .banner-ticker {
   width: 100%;
-  background: rgba(6, 182, 212, 0.28);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: transparent;
   color: #fff;
   padding: 0.6rem 0;
   overflow: hidden;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  border-bottom: none;
   flex-shrink: 0;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 .banner-ticker-inner {
@@ -260,7 +257,7 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
-  animation: banner-slide-fade 28s infinite;
+  animation: banner-slide-fade 24s infinite;
   backface-visibility: hidden;
 }
 
@@ -270,7 +267,6 @@ li {
 .hero .banner-slide:nth-child(4) { animation-delay: -12s; }
 .hero .banner-slide:nth-child(5) { animation-delay: -16s; }
 .hero .banner-slide:nth-child(6) { animation-delay: -20s; }
-.hero .banner-slide:nth-child(7) { animation-delay: -24s; }
 
 .hero::after {
   content: '';
