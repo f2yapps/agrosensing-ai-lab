@@ -24,17 +24,12 @@
   --banner-image-alt: url('../images/banners/Banner2.jpg');
 }
 
-@keyframes banner-zoom {
-  0% { transform: scale(0.92); }
-  100% { transform: scale(1.02); }
+/* Sliding banner: each slide visible for 4s, then next */
+@keyframes banner-slide-fade {
+  0% { opacity: 1; }
+  14.286% { opacity: 0; }
+  100% { opacity: 0; }
 }
-
-/* Per-page banner images (override --banner-image) */
-.page-banner--project::before { background-image: url('../images/banners/Banner3.JPG'); }
-.page-banner--publication::before { background-image: url('../images/banners/Banner8.PNG'); }
-.page-banner--teaching::before { background-image: url('../images/banners/Banner9.png'); }
-.page-banner--team::before { background-image: url('../images/banners/Banner10.png'); }
-.page-banner--news::before { background-image: url('../images/banners/Banner11.png'); }
 
 * {
   box-sizing: border-box;
@@ -112,32 +107,40 @@ body {
   background: rgba(255, 255, 255, 0.15);
 }
 
-/* Page banner – image only, no text; taller so image shows fully */
+/* Page banner – sliding slides, full width & height */
 .page-banner {
   position: relative;
-  min-height: 380px;
+  width: 100%;
+  min-height: 55vh;
   margin-bottom: 0;
   overflow: hidden;
 }
 
-.page-banner::before {
-  content: '';
+.page-banner .banner-slide {
   position: absolute;
   inset: 0;
-  background-image: var(--banner-image);
-  background-size: 75%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  animation: banner-zoom 20s ease-in-out infinite alternate;
-  z-index: 0;
+  opacity: 0;
+  animation: banner-slide-fade 28s infinite;
 }
+
+.page-banner .banner-slide:nth-child(1) { animation-delay: 0s; }
+.page-banner .banner-slide:nth-child(2) { animation-delay: -4s; }
+.page-banner .banner-slide:nth-child(3) { animation-delay: -8s; }
+.page-banner .banner-slide:nth-child(4) { animation-delay: -12s; }
+.page-banner .banner-slide:nth-child(5) { animation-delay: -16s; }
+.page-banner .banner-slide:nth-child(6) { animation-delay: -20s; }
+.page-banner .banner-slide:nth-child(7) { animation-delay: -24s; }
 
 .page-banner::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(14, 116, 144, 0.35) 0%, rgba(8, 145, 178, 0.25) 50%, rgba(6, 182, 212, 0.2) 100%);
+  background: linear-gradient(180deg, rgba(14, 116, 144, 0.25) 0%, rgba(8, 145, 178, 0.2) 50%, rgba(6, 182, 212, 0.15) 100%);
   z-index: 1;
+  pointer-events: none;
 }
 
 /* Main content */
@@ -193,32 +196,40 @@ li {
   margin-bottom: 0.35rem;
 }
 
-/* Home hero – full-width banner, image only; taller so image shows fully */
+/* Home hero – sliding slides, full width & height */
 .hero {
   position: relative;
-  min-height: 380px;
+  width: 100%;
+  min-height: 55vh;
   margin-bottom: 0;
   overflow: hidden;
 }
 
-.hero::before {
-  content: '';
+.hero .banner-slide {
   position: absolute;
   inset: 0;
-  background-image: var(--banner-image-alt);
-  background-size: 75%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  animation: banner-zoom 22s ease-in-out infinite alternate;
-  z-index: 0;
+  opacity: 0;
+  animation: banner-slide-fade 28s infinite;
 }
+
+.hero .banner-slide:nth-child(1) { animation-delay: 0s; }
+.hero .banner-slide:nth-child(2) { animation-delay: -4s; }
+.hero .banner-slide:nth-child(3) { animation-delay: -8s; }
+.hero .banner-slide:nth-child(4) { animation-delay: -12s; }
+.hero .banner-slide:nth-child(5) { animation-delay: -16s; }
+.hero .banner-slide:nth-child(6) { animation-delay: -20s; }
+.hero .banner-slide:nth-child(7) { animation-delay: -24s; }
 
 .hero::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(14, 116, 144, 0.35) 0%, rgba(8, 145, 178, 0.25) 50%, rgba(6, 182, 212, 0.2) 100%);
+  background: linear-gradient(180deg, rgba(14, 116, 144, 0.25) 0%, rgba(8, 145, 178, 0.2) 50%, rgba(6, 182, 212, 0.15) 100%);
   z-index: 1;
+  pointer-events: none;
 }
 
 /* Intro block below home banner (name, title, contact) */
