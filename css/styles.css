@@ -21,8 +21,8 @@
 }
 
 @keyframes banner-zoom {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.12); }
+  0% { transform: scale(0.92); }
+  100% { transform: scale(1.02); }
 }
 
 /* Per-page banner images (override --banner-image) */
@@ -108,12 +108,10 @@ body {
   background: rgba(8, 145, 178, 0.12);
 }
 
-/* Page banner – dynamic picture with zoom */
+/* Page banner – image only, no text; taller so image shows fully */
 .page-banner {
   position: relative;
-  color: #fff;
-  padding: 2.75rem 1.5rem;
-  text-align: center;
+  min-height: 380px;
   margin-bottom: 0;
   overflow: hidden;
 }
@@ -123,8 +121,9 @@ body {
   position: absolute;
   inset: 0;
   background-image: var(--banner-image);
-  background-size: cover;
+  background-size: 90%;
   background-position: center;
+  background-repeat: no-repeat;
   animation: banner-zoom 20s ease-in-out infinite alternate;
   z-index: 0;
 }
@@ -133,30 +132,8 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(14, 116, 144, 0.88) 0%, rgba(8, 145, 178, 0.85) 50%, rgba(6, 182, 212, 0.82) 100%);
+  background: linear-gradient(180deg, rgba(14, 116, 144, 0.35) 0%, rgba(8, 145, 178, 0.25) 50%, rgba(6, 182, 212, 0.2) 100%);
   z-index: 1;
-}
-
-.page-banner-inner {
-  position: relative;
-  z-index: 2;
-  max-width: var(--max-width);
-  margin: 0 auto;
-}
-
-.page-banner h1 {
-  font-family: var(--font-heading);
-  font-size: clamp(1.85rem, 4.5vw, 2.6rem);
-  margin: 0;
-  font-weight: 700;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.35);
-}
-
-.page-banner p {
-  margin: 0.6rem 0 0;
-  font-size: 1.15rem;
-  opacity: 0.98;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 
 /* Main content */
@@ -167,7 +144,7 @@ main {
   flex: 1;
 }
 
-/* When page has banner, first title is inside banner so no duplicate */
+/* Page title (below banner) */
 main .page-title {
   font-family: var(--font-heading);
   font-size: 2rem;
@@ -212,12 +189,10 @@ li {
   margin-bottom: 0.35rem;
 }
 
-/* Home hero – full-width banner (same stretch as other pages) */
+/* Home hero – full-width banner, image only; taller so image shows fully */
 .hero {
   position: relative;
-  text-align: center;
-  padding: 2.75rem 1.5rem;
-  color: #fff;
+  min-height: 380px;
   margin-bottom: 0;
   overflow: hidden;
 }
@@ -227,8 +202,9 @@ li {
   position: absolute;
   inset: 0;
   background-image: var(--banner-image-alt);
-  background-size: cover;
+  background-size: 90%;
   background-position: center;
+  background-repeat: no-repeat;
   animation: banner-zoom 22s ease-in-out infinite alternate;
   z-index: 0;
 }
@@ -237,61 +213,42 @@ li {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(14, 116, 144, 0.88) 0%, rgba(8, 145, 178, 0.85) 50%, rgba(6, 182, 212, 0.82) 100%);
+  background: linear-gradient(180deg, rgba(14, 116, 144, 0.35) 0%, rgba(8, 145, 178, 0.25) 50%, rgba(6, 182, 212, 0.2) 100%);
   z-index: 1;
 }
 
-.hero-inner {
-  position: relative;
-  z-index: 2;
-  max-width: var(--max-width);
-  margin: 0 auto;
+/* Intro block below home banner (name, title, contact) */
+.intro-block {
+  margin-bottom: 2rem;
 }
 
-.hero h1,
-.hero .subtitle,
-.hero .institution,
-.hero .contact-block {
-  position: relative;
-  z-index: 2;
+.intro-block .page-title {
+  margin-bottom: 0.5rem;
 }
 
-.hero h1 {
-  font-family: var(--font-heading);
-  font-size: clamp(2rem, 4.5vw, 2.75rem);
-  color: #fff;
-  margin: 0 0 0.35rem;
-  line-height: 1.25;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.35);
-}
-
-.hero .subtitle {
+.intro-block .subtitle {
   font-size: 1.35rem;
-  color: rgba(255,255,255,0.98);
-  margin: 0 0 1rem;
+  color: var(--color-accent-dark);
+  margin: 0 0 0.5rem;
+  font-weight: 600;
 }
 
-.hero .institution {
+.intro-block .institution {
   font-size: 1.1rem;
-  color: rgba(255,255,255,0.95);
-  margin: 0 0 1.5rem;
-}
-
-.hero .contact-block a {
-  color: #fff;
-  text-decoration: underline;
+  color: var(--color-text-muted);
+  margin: 0 0 1rem;
 }
 
 .contact-block {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem 1.5rem;
   font-size: 1.05rem;
-  color: rgba(255,255,255,0.95);
+  color: var(--color-text);
 }
 
-.hero .contact-block a:hover {
+.intro-block .contact-block a:hover {
   text-decoration: none;
 }
 
