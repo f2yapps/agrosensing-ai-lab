@@ -24,9 +24,10 @@
   --banner-image-alt: url('../images/banners/Banner2.jpg');
 }
 
-/* Sliding banner: each slide visible for 4s, then next */
+/* Sliding banner: crossfade with no gap – next slide already visible when previous fades */
 @keyframes banner-slide-fade {
   0% { opacity: 1; }
+  12% { opacity: 1; }
   14.286% { opacity: 0; }
   100% { opacity: 0; }
 }
@@ -107,23 +108,31 @@ body {
   background: rgba(255, 255, 255, 0.15);
 }
 
-/* Page banner – sliding slides, full width & height */
+/* Page banner – sliding slides, full width & height, no gap */
 .page-banner {
   position: relative;
   width: 100%;
   min-height: 55vh;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
+  background: var(--color-nav-bg);
 }
 
 .page-banner .banner-slide {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
   animation: banner-slide-fade 28s infinite;
+  backface-visibility: hidden;
 }
 
 .page-banner .banner-slide:nth-child(1) { animation-delay: 0s; }
@@ -141,6 +150,35 @@ body {
   background: linear-gradient(180deg, rgba(14, 116, 144, 0.25) 0%, rgba(8, 145, 178, 0.2) 50%, rgba(6, 182, 212, 0.15) 100%);
   z-index: 1;
   pointer-events: none;
+}
+
+/* Running text ticker under banners */
+.banner-ticker {
+  width: 100%;
+  background: var(--color-nav-bg);
+  color: var(--color-nav-text);
+  padding: 0.6rem 0;
+  overflow: hidden;
+  border-bottom: 1px solid var(--color-nav-border);
+  flex-shrink: 0;
+}
+
+.banner-ticker-inner {
+  display: inline-block;
+  white-space: nowrap;
+  animation: ticker-scroll 30s linear infinite;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.banner-ticker-inner span {
+  padding-right: 3rem;
+}
+
+@keyframes ticker-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 /* Main content */
@@ -196,23 +234,31 @@ li {
   margin-bottom: 0.35rem;
 }
 
-/* Home hero – sliding slides, full width & height */
+/* Home hero – sliding slides, full width & height, no gap */
 .hero {
   position: relative;
   width: 100%;
   min-height: 55vh;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
+  background: var(--color-nav-bg);
 }
 
 .hero .banner-slide {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
   animation: banner-slide-fade 28s infinite;
+  backface-visibility: hidden;
 }
 
 .hero .banner-slide:nth-child(1) { animation-delay: 0s; }
