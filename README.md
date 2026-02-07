@@ -1,6 +1,6 @@
-# Fitsum Tilahun Teshome, Ph.D. — Academic Website
+# Fitsum Teshome, Ph.D. — Academic Website
 
-Personal academic website for **Fitsum Tilahun Teshome**, Post-Doctoral Research Associate at the University of Maryland (Central Maryland Research & Education Center, College of Agriculture and Natural Resources).
+Personal academic website for **Fitsum Teshome**, Post-Doctoral Research Associate at the University of Maryland (Central Maryland Research & Education Center, College of Agriculture and Natural Resources).
 
 ## Pages
 
