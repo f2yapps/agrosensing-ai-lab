@@ -24,10 +24,10 @@
   --banner-image-alt: url('../images/banners/Banner2.jpg');
 }
 
-/* Sliding banner: 6 slides, overlap so no gap */
+/* Sliding banner: 6 slides, uniform 4s per slide (24s total cycle) */
 @keyframes banner-slide-fade {
   0% { opacity: 1; }
-  14% { opacity: 1; }
+  16.666% { opacity: 1; }
   16.667% { opacity: 0; }
   100% { opacity: 0; }
 }
@@ -151,16 +151,16 @@ body {
   pointer-events: none;
 }
 
-/* Running text ticker – transparent background */
+/* Running text ticker – solid teal background for readability */
 .banner-ticker {
   width: 100%;
-  background: transparent;
+  background: #0e7490;
   color: #fff;
   padding: 0.6rem 0;
   overflow: hidden;
-  border-bottom: none;
+  border-bottom: 1px solid #0c4a6e;
   flex-shrink: 0;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .banner-ticker-inner {
