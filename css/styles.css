@@ -114,7 +114,7 @@ body {
 .page-banner {
   position: relative;
   width: 100%;
-  min-height: 55vh;
+  min-height: 42vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -254,7 +254,7 @@ li {
 .hero {
   position: relative;
   width: 100%;
-  min-height: 55vh;
+  min-height: 42vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -502,9 +502,8 @@ li {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  align-items: stretch;
+  align-items: flex-start;
   justify-content: flex-start;
-  min-height: 200px;
   flex: 1 1 auto;
 }
 .abstract-figures figure {
@@ -512,35 +511,30 @@ li {
   flex: 1 1 200px;
   min-width: 0;
   max-width: 100%;
-  min-height: 200px;
 }
 .abstract-figures figure.single-fig {
   flex: 1 1 100%;
-  max-width: 480px;
-  min-height: 200px;
+  max-width: 520px;
 }
 .abstract-figures img {
   width: 100%;
-  height: 100%;
-  min-height: 200px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
+  object-position: top center;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: block;
+  vertical-align: top;
 }
 @media (max-width: 768px) {
   .abstract-figures figure {
     flex: 1 1 100%;
-    min-height: 180px;
   }
   .abstract-figures figure.single-fig {
     max-width: 100%;
   }
-  .abstract-figures img {
-    min-height: 180px;
-  }
   .abstract-card {
-    min-height: 320px;
+    min-height: 280px;
   }
 }
 
