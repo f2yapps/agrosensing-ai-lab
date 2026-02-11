@@ -24,11 +24,11 @@
   --banner-image-alt: url('../images/banners/Banner2.jpg');
 }
 
-/* Sliding banner: 6 slides, uniform 4s per slide (24s total cycle) */
+/* Sliding banner: 21 slides, ~4s per slide (84s total cycle) */
 @keyframes banner-slide-fade {
   0% { opacity: 1; }
-  16.666% { opacity: 1; }
-  16.667% { opacity: 0; }
+  4.76% { opacity: 1; }
+  4.77% { opacity: 0; }
   100% { opacity: 0; }
 }
 
@@ -133,7 +133,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
-  animation: banner-slide-fade 24s infinite;
+  animation: banner-slide-fade 84s infinite;
   backface-visibility: hidden;
 }
 
@@ -143,6 +143,21 @@ body {
 .page-banner .banner-slide:nth-child(4) { animation-delay: -12s; }
 .page-banner .banner-slide:nth-child(5) { animation-delay: -16s; }
 .page-banner .banner-slide:nth-child(6) { animation-delay: -20s; }
+.page-banner .banner-slide:nth-child(7) { animation-delay: -24s; }
+.page-banner .banner-slide:nth-child(8) { animation-delay: -28s; }
+.page-banner .banner-slide:nth-child(9) { animation-delay: -32s; }
+.page-banner .banner-slide:nth-child(10) { animation-delay: -36s; }
+.page-banner .banner-slide:nth-child(11) { animation-delay: -40s; }
+.page-banner .banner-slide:nth-child(12) { animation-delay: -44s; }
+.page-banner .banner-slide:nth-child(13) { animation-delay: -48s; }
+.page-banner .banner-slide:nth-child(14) { animation-delay: -52s; }
+.page-banner .banner-slide:nth-child(15) { animation-delay: -56s; }
+.page-banner .banner-slide:nth-child(16) { animation-delay: -60s; }
+.page-banner .banner-slide:nth-child(17) { animation-delay: -64s; }
+.page-banner .banner-slide:nth-child(18) { animation-delay: -68s; }
+.page-banner .banner-slide:nth-child(19) { animation-delay: -72s; }
+.page-banner .banner-slide:nth-child(20) { animation-delay: -76s; }
+.page-banner .banner-slide:nth-child(21) { animation-delay: -80s; }
 
 .page-banner::after {
   content: '';
@@ -259,7 +274,7 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
-  animation: banner-slide-fade 24s infinite;
+  animation: banner-slide-fade 84s infinite;
   backface-visibility: hidden;
 }
 
@@ -269,6 +284,21 @@ li {
 .hero .banner-slide:nth-child(4) { animation-delay: -12s; }
 .hero .banner-slide:nth-child(5) { animation-delay: -16s; }
 .hero .banner-slide:nth-child(6) { animation-delay: -20s; }
+.hero .banner-slide:nth-child(7) { animation-delay: -24s; }
+.hero .banner-slide:nth-child(8) { animation-delay: -28s; }
+.hero .banner-slide:nth-child(9) { animation-delay: -32s; }
+.hero .banner-slide:nth-child(10) { animation-delay: -36s; }
+.hero .banner-slide:nth-child(11) { animation-delay: -40s; }
+.hero .banner-slide:nth-child(12) { animation-delay: -44s; }
+.hero .banner-slide:nth-child(13) { animation-delay: -48s; }
+.hero .banner-slide:nth-child(14) { animation-delay: -52s; }
+.hero .banner-slide:nth-child(15) { animation-delay: -56s; }
+.hero .banner-slide:nth-child(16) { animation-delay: -60s; }
+.hero .banner-slide:nth-child(17) { animation-delay: -64s; }
+.hero .banner-slide:nth-child(18) { animation-delay: -68s; }
+.hero .banner-slide:nth-child(19) { animation-delay: -72s; }
+.hero .banner-slide:nth-child(20) { animation-delay: -76s; }
+.hero .banner-slide:nth-child(21) { animation-delay: -80s; }
 
 .hero::after {
   content: '';
@@ -282,6 +312,15 @@ li {
 /* Intro block below home banner (name, title, contact) */
 .intro-block {
   margin-bottom: 2rem;
+}
+
+.hero-tagline {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: var(--color-accent-dark);
+  margin: 0 0 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .intro-block .page-title {
@@ -326,6 +365,53 @@ li {
 
 .section-block h2 {
   margin-top: 0;
+}
+
+.news-hero-img {
+  margin: 0 0 1.5rem;
+  text-align: center;
+}
+
+.news-hero-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-figure {
+  margin: 1rem 0 1.5rem;
+  text-align: center;
+}
+
+.project-figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0 2rem;
+}
+
+.project-pictures img {
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .project-pictures img {
+    width: 100%;
+  }
 }
 
 /* Publication list */
