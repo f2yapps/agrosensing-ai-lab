@@ -703,6 +703,84 @@ li {
   text-align: left;
 }
 
+.pi-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.pi-card__photo {
+  flex: 0 0 auto;
+}
+
+.pi-card__content {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+
+.pi-card__name {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-accent-dark);
+  margin-bottom: 0.2rem;
+}
+
+.pi-card__role {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.pi-card__affil {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.pi-card__focus {
+  list-style: none;
+  margin: 0 0 0.75rem;
+  padding: 0;
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+.pi-card__focus li {
+  margin-bottom: 0.25rem;
+}
+
+.pi-card__links {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.pi-card__links a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.pi-card__links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .pi-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pi-card__content {
+    flex: 1 1 auto;
+  }
+
+  .pi-card__focus {
+    text-align: left;
+  }
+}
+
 /* Footer – PAL-style layout */
 .site-footer {
   background: var(--color-footer-bg);
