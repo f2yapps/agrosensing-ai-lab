@@ -254,11 +254,39 @@ li {
   margin-bottom: 0.35rem;
 }
 
+/* Home hero – video left, banner right */
+.hero-banner-wrap {
+  display: flex;
+  width: 100%;
+  min-height: 75vh;
+  flex-wrap: wrap;
+}
+
+.hero-video {
+  flex: 0 0 42%;
+  max-width: 520px;
+  min-width: 280px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  background: rgba(26, 54, 93, 0.85);
+  z-index: 2;
+}
+
+.hero-video video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
 /* Home hero – sliding slides, full-width cover */
 .hero {
   position: relative;
-  width: 100%;
+  flex: 1;
   min-height: 75vh;
+  min-width: 50%;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -946,9 +974,25 @@ li {
     font-size: 0.9rem;
   }
 
+  .hero-banner-wrap {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .hero-video {
+    flex: 0 0 auto;
+    max-width: 100%;
+    min-width: 0;
+    padding: 0.75rem;
+  }
+
   .page-banner,
   .hero {
     min-height: 65vh;
+  }
+
+  .hero-banner-wrap .hero {
+    min-height: 50vh;
   }
 
   .banner-ticker-inner {
