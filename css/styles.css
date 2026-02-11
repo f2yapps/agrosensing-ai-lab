@@ -114,7 +114,7 @@ body {
 .page-banner {
   position: relative;
   width: 100%;
-  min-height: 42vh;
+  min-height: 55vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -254,7 +254,7 @@ li {
 .hero {
   position: relative;
   width: 100%;
-  min-height: 42vh;
+  min-height: 55vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -453,6 +453,71 @@ li {
   }
   .highlights-grid img {
     min-height: 240px;
+  }
+}
+
+/* Research graphical abstracts – themed cards with titles and images */
+.abstract-cards-section {
+  margin: 2.5rem 0;
+}
+.abstract-cards-section > h2 {
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-accent);
+  color: var(--color-accent-dark);
+}
+.abstract-card {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.75rem;
+  box-shadow: 0 2px 10px rgba(14, 116, 144, 0.08);
+  overflow: hidden;
+}
+.abstract-card:last-child {
+  margin-bottom: 0;
+}
+.abstract-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  color: var(--color-text);
+  margin: 0 0 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.abstract-figures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.abstract-figures figure {
+  margin: 0;
+  flex: 1 1 200px;
+  min-width: 0;
+  max-width: 100%;
+}
+.abstract-figures figure.single-fig {
+  flex: 1 1 100%;
+  max-width: 480px;
+}
+.abstract-figures img {
+  width: 100%;
+  height: auto;
+  min-height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+@media (max-width: 768px) {
+  .abstract-figures figure {
+    flex: 1 1 100%;
+  }
+  .abstract-figures figure.single-fig {
+    max-width: 100%;
   }
 }
 
