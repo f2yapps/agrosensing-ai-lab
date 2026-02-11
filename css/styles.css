@@ -117,7 +117,7 @@ body {
 .page-banner {
   position: relative;
   width: 100%;
-  min-height: 50vh;
+  min-height: 55vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -258,7 +258,7 @@ li {
 .hero {
   position: relative;
   width: 100%;
-  min-height: 50vh;
+  min-height: 55vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -714,6 +714,16 @@ li {
   flex: 0 0 auto;
 }
 
+.pi-card__photo .team-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  border: 3px solid var(--color-accent);
+  background: var(--color-bg-alt);
+}
+
 .pi-card__content {
   flex: 1 1 220px;
   min-width: 0;
@@ -772,12 +782,28 @@ li {
     text-align: center;
   }
 
+  .pi-card__photo .team-photo {
+    width: 100px;
+    height: 100px;
+  }
+
   .pi-card__content {
     flex: 1 1 auto;
   }
 
+  .pi-card__name {
+    font-size: 1.1rem;
+  }
+
   .pi-card__focus {
     text-align: left;
+  }
+
+  .pi-card__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 0.5rem;
   }
 }
 
@@ -922,7 +948,7 @@ li {
 
   .page-banner,
   .hero {
-    min-height: 35vh;
+    min-height: 42vh;
   }
 
   .banner-ticker-inner {
@@ -1026,6 +1052,10 @@ li {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 1rem;
   }
+
+  .section-block {
+    padding: 1rem;
+  }
 }
 
 @media (max-width: 640px) {
@@ -1042,7 +1072,7 @@ li {
 
   .page-banner,
   .hero {
-    min-height: 30vh;
+    min-height: 36vh;
   }
 
   main {
@@ -1086,6 +1116,24 @@ li {
 }
 
 @media (max-width: 480px) {
+  .pi-card__photo .team-photo {
+    width: 88px;
+    height: 88px;
+  }
+
+  .pi-card__name {
+    font-size: 1.05rem;
+  }
+
+  .pi-card__role,
+  .pi-card__affil {
+    font-size: 0.9rem;
+  }
+
+  .pi-card__focus {
+    font-size: 0.9rem;
+  }
+
   body {
     font-size: 1rem;
   }
