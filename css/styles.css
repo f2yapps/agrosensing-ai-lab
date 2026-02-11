@@ -24,11 +24,11 @@
   --banner-image-alt: url('../images/banners/Banner2.jpg');
 }
 
-/* Sliding banner: 21 slides, ~4s per slide (84s total cycle) */
+/* Sliding banner: 19 slides, ~4s per slide (76s total cycle) */
 @keyframes banner-slide-fade {
   0% { opacity: 1; }
-  4.76% { opacity: 1; }
-  4.77% { opacity: 0; }
+  5.26% { opacity: 1; }
+  5.27% { opacity: 0; }
   100% { opacity: 0; }
 }
 
@@ -110,7 +110,7 @@ body {
   background: rgba(255, 255, 255, 0.15);
 }
 
-/* Page banner – sliding slides, full width & height, no gap */
+/* Page banner – sliding slides, full-width cover */
 .page-banner {
   position: relative;
   width: 100%;
@@ -129,12 +129,11 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-color: var(--color-nav-bg);
   opacity: 0;
-  animation: banner-slide-fade 84s infinite;
+  animation: banner-slide-fade 76s infinite;
   backface-visibility: hidden;
 }
 
@@ -157,14 +156,12 @@ body {
 .page-banner .banner-slide:nth-child(17) { animation-delay: -64s; }
 .page-banner .banner-slide:nth-child(18) { animation-delay: -68s; }
 .page-banner .banner-slide:nth-child(19) { animation-delay: -72s; }
-.page-banner .banner-slide:nth-child(20) { animation-delay: -76s; }
-.page-banner .banner-slide:nth-child(21) { animation-delay: -80s; }
 
 .page-banner::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(14, 116, 144, 0.25) 0%, rgba(8, 145, 178, 0.2) 50%, rgba(6, 182, 212, 0.15) 100%);
+  background: linear-gradient(180deg, rgba(26, 54, 93, 0.4) 0%, transparent 35%, transparent 65%, rgba(14, 116, 144, 0.35) 100%);
   z-index: 1;
   pointer-events: none;
 }
@@ -252,7 +249,7 @@ li {
   margin-bottom: 0.35rem;
 }
 
-/* Home hero – sliding slides, full width & height, no gap */
+/* Home hero – sliding slides, full-width cover */
 .hero {
   position: relative;
   width: 100%;
@@ -271,12 +268,11 @@ li {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-color: var(--color-nav-bg);
   opacity: 0;
-  animation: banner-slide-fade 84s infinite;
+  animation: banner-slide-fade 76s infinite;
   backface-visibility: hidden;
 }
 
@@ -299,14 +295,12 @@ li {
 .hero .banner-slide:nth-child(17) { animation-delay: -64s; }
 .hero .banner-slide:nth-child(18) { animation-delay: -68s; }
 .hero .banner-slide:nth-child(19) { animation-delay: -72s; }
-.hero .banner-slide:nth-child(20) { animation-delay: -76s; }
-.hero .banner-slide:nth-child(21) { animation-delay: -80s; }
 
 .hero::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(14, 116, 144, 0.25) 0%, rgba(8, 145, 178, 0.2) 50%, rgba(6, 182, 212, 0.15) 100%);
+  background: linear-gradient(180deg, rgba(26, 54, 93, 0.4) 0%, transparent 35%, transparent 65%, rgba(14, 116, 144, 0.35) 100%);
   z-index: 1;
   pointer-events: none;
 }
