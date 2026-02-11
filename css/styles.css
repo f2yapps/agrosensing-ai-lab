@@ -44,7 +44,7 @@ html {
 body {
   margin: 0;
   font-family: var(--font-body);
-  font-size: 1.2rem;
+  font-size: clamp(1.05rem, 0.4vw + 1rem, 1.2rem);
   line-height: 1.7;
   color: var(--color-text);
   background: var(--color-bg);
@@ -186,7 +186,7 @@ body {
   display: inline-block;
   white-space: nowrap;
   animation: ticker-scroll 15s linear infinite;
-  font-size: 1.05rem;
+  font-size: clamp(1rem, 0.8vw + 0.95rem, 1.2rem);
   font-weight: 600;
   letter-spacing: 0.02em;
 }
@@ -212,7 +212,7 @@ main {
 /* Page title (below banner) */
 main .page-title {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 2.5vw + 1rem, 2.25rem);
   color: var(--color-accent-dark);
   margin: 0 0 1.5rem;
   padding-bottom: 0.5rem;
@@ -221,13 +221,13 @@ main .page-title {
 
 h2 {
   font-family: var(--font-heading);
-  font-size: 1.55rem;
+  font-size: clamp(1.35rem, 1.2vw + 1.2rem, 1.65rem);
   color: var(--color-accent-dark);
   margin: 2rem 0 0.75rem;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: clamp(1.1rem, 0.6vw + 1.05rem, 1.3rem);
   color: var(--color-text);
   margin: 1.25rem 0 0.5rem;
 }
@@ -318,7 +318,7 @@ li {
 
 .hero-tagline {
   font-family: var(--font-heading);
-  font-size: 1.1rem;
+  font-size: clamp(1.05rem, 0.5vw + 1rem, 1.2rem);
   color: var(--color-accent-dark);
   margin: 0 0 0.75rem;
   font-weight: 700;
@@ -330,14 +330,14 @@ li {
 }
 
 .intro-block .subtitle {
-  font-size: 1.35rem;
+  font-size: clamp(1.15rem, 0.6vw + 1.1rem, 1.4rem);
   color: var(--color-accent-dark);
   margin: 0 0 0.5rem;
   font-weight: 600;
 }
 
 .intro-block .institution {
-  font-size: 1.1rem;
+  font-size: clamp(1rem, 0.4vw + 0.95rem, 1.15rem);
   color: var(--color-text-muted);
   margin: 0 0 1rem;
 }
@@ -705,13 +705,16 @@ li {
 
 .pi-card {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 1.25rem;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
 }
 
 .pi-card__photo {
   flex: 0 0 auto;
+  order: -1;
 }
 
 .pi-card__photo .team-photo {
@@ -725,8 +728,9 @@ li {
 }
 
 .pi-card__content {
-  flex: 1 1 220px;
+  flex: 1 1 auto;
   min-width: 0;
+  max-width: 640px;
 }
 
 .pi-card__name {
@@ -755,6 +759,10 @@ li {
   padding: 0;
   font-size: 0.95rem;
   color: var(--color-text);
+}
+
+.pi-card__focus {
+  text-align: left;
 }
 
 .pi-card__focus li {
@@ -952,7 +960,7 @@ li {
   }
 
   .banner-ticker-inner {
-    font-size: 0.9rem;
+    font-size: clamp(0.95rem, 1.5vw + 0.85rem, 1.1rem);
   }
 
   .banner-ticker {
@@ -964,17 +972,17 @@ li {
   }
 
   main .page-title {
-    font-size: 1.6rem;
+    font-size: clamp(1.45rem, 4vw + 1rem, 1.75rem);
     margin-bottom: 1rem;
   }
 
   h2 {
-    font-size: 1.35rem;
+    font-size: clamp(1.25rem, 2.5vw + 1rem, 1.5rem);
     margin-top: 1.5rem;
   }
 
   h3 {
-    font-size: 1.1rem;
+    font-size: clamp(1.05rem, 1.5vw + 0.9rem, 1.15rem);
   }
 
   .intro-block .page-title {
@@ -982,7 +990,7 @@ li {
   }
 
   .hero-tagline {
-    font-size: 0.95rem;
+    font-size: clamp(0.95rem, 2vw + 0.85rem, 1.1rem);
   }
 
   .intro-block .subtitle {
@@ -1144,22 +1152,22 @@ li {
   }
 
   .intro-block .page-title {
-    font-size: 1.5rem;
+    font-size: clamp(1.4rem, 4vw + 1rem, 1.65rem);
   }
 
   .hero-tagline {
-    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 2vw + 0.8rem, 1.05rem);
   }
 
   .banner-ticker-inner {
-    font-size: 0.8rem;
+    font-size: clamp(0.9rem, 2vw + 0.75rem, 1.05rem);
   }
 
   .abstract-card h3 {
-    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 1.5vw + 0.8rem, 1rem);
   }
 
   .abstract-summary {
-    font-size: 0.85rem;
+    font-size: clamp(0.875rem, 1vw + 0.8rem, 0.95rem);
   }
 }
