@@ -117,11 +117,11 @@ body {
 .page-banner {
   position: relative;
   width: 100%;
-  min-height: 55vh;
+  min-height: 75vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: var(--color-nav-bg) url('../images/banners/Banner1.png?v=2') center/cover no-repeat;
+  background: var(--color-nav-bg) url('../images/banners/combinebannner.png') center/cover no-repeat;
 }
 
 .page-banner .banner-slide {
@@ -258,11 +258,11 @@ li {
 .hero {
   position: relative;
   width: 100%;
-  min-height: 55vh;
+  min-height: 75vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: var(--color-nav-bg) url('../images/banners/Banner1.png?v=2') center/cover no-repeat;
+  background: var(--color-nav-bg) url('../images/banners/combinebannner.png') center/cover no-repeat;
 }
 
 .hero .banner-slide {
@@ -948,7 +948,7 @@ li {
 
   .page-banner,
   .hero {
-    min-height: 42vh;
+    min-height: 65vh;
   }
 
   .banner-ticker-inner {
@@ -1072,7 +1072,7 @@ li {
 
   .page-banner,
   .hero {
-    min-height: 36vh;
+    min-height: 55vh;
   }
 
   main {
