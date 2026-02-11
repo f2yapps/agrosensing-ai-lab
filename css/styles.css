@@ -129,9 +129,10 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: var(--color-nav-bg);
   opacity: 0;
   animation: banner-slide-fade 84s infinite;
   backface-visibility: hidden;
@@ -270,9 +271,10 @@ li {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: var(--color-nav-bg);
   opacity: 0;
   animation: banner-slide-fade 84s infinite;
   backface-visibility: hidden;
