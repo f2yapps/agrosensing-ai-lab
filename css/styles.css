@@ -129,7 +129,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-size: 92%;
+  background-size: 85%;
   background-position: center center;
   background-repeat: no-repeat;
   background-color: var(--color-nav-bg);
@@ -269,7 +269,7 @@ li {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-size: 92%;
+  background-size: 85%;
   background-position: center center;
   background-repeat: no-repeat;
   background-color: var(--color-nav-bg);
@@ -412,46 +412,35 @@ li {
   }
 }
 
-/* Scattered highlight images – not grouped */
-.highlight-fig {
-  margin: 1.5rem 0;
-  max-width: 320px;
+/* Highlights section – large images in a proper grid */
+.highlights-section {
+  margin: 2.5rem 0;
 }
-.highlight-fig img {
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+.highlights-grid figure {
+  margin: 0;
+}
+.highlights-grid img {
   width: 100%;
   height: auto;
+  min-height: 220px;
+  object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(14, 116, 144, 0.15);
+  box-shadow: 0 4px 14px rgba(14, 116, 144, 0.18);
   display: block;
 }
-.highlight-fig--right {
-  margin-left: auto;
-  margin-right: 0;
-}
-.highlight-fig--left {
-  margin-left: 0;
-  margin-right: auto;
-}
-.highlight-fig--center {
-  margin-left: auto;
-  margin-right: auto;
-}
-.highlight-fig--inline-right {
-  float: right;
-  margin: 0.5rem 0 1rem 1.5rem;
-  max-width: 280px;
-}
-.highlight-fig--inline-left {
-  float: left;
-  margin: 0.5rem 1.5rem 1rem 0;
-  max-width: 280px;
-}
 @media (max-width: 768px) {
-  .highlight-fig--inline-right,
-  .highlight-fig--inline-left {
-    float: none;
-    margin: 1rem auto;
-    max-width: 100%;
+  .highlights-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .highlights-grid img {
+    min-height: 200px;
   }
 }
 
