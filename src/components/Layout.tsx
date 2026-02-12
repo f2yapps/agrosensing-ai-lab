@@ -50,9 +50,6 @@ export default function Layout() {
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/project">Project</NavLink></li>
                 <li><NavLink to="/publication">Publication</NavLink></li>
-                <li><NavLink to="/teaching">Teaching</NavLink></li>
-                <li><NavLink to="/team">Team</NavLink></li>
-                <li><NavLink to="/news">News</NavLink></li>
               </ul>
             </div>
             <div className="footer-contact">
