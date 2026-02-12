@@ -1,0 +1,121 @@
+export default function Project() {
+  return (
+    <>
+      <h1 className="page-title">Research Projects</h1>
+
+      <h2>Integrated AI Framework for Agricultural and Environmental Intelligence</h2>
+      <p>This project develops a multi-layered AI framework to transform agricultural and environmental data into actionable decision intelligence. The system integrates multimodal sensing—UAV imagery, satellite remote sensing, IoT-enabled soil and crop sensors, weather stations, and management records—with advanced machine learning, digital twins, and mechanistic crop and hydrologic models running on high-performance computing (HPC) infrastructure.</p>
+      <figure className="project-figure">
+        <img src="/images/News/diagram2.png" alt="Integrated AI Framework – data flow and components overview" width={900} />
+      </figure>
+      <p>AI-driven data fusion extracts meaningful indicators such as crop stress, soil moisture, nutrient variability, and soil carbon dynamics, while physics-informed hybrid models and IoT-supported digital twins ensure predictions respect biological and physical processes. These outputs are translated into optimized, scenario-based recommendations for irrigation, nutrient management, conservation, and climate adaptation.</p>
+      <figure className="project-figure">
+        <img src="/images/News/diagram3.png" alt="Integrated AI Framework diagram" width={900} />
+      </figure>
+      <p>A climate resilience and stakeholder interface module enables evaluation under extreme events and facilitates iterative feedback from farmers, extension specialists, and environmental managers. Scalable from field to regional levels, the framework advances precision agriculture, improves resource efficiency, strengthens ecosystem resilience, and serves as a platform for interdisciplinary AI innovation.</p>
+
+      <h2>Postdoctoral Research Associate<br />University of Maryland</h2>
+      <p>Focused on AI-driven precision irrigation, crop water stress monitoring, and nutrient-load reduction using UAV imagery, IoT sensing networks, digital twins, machine learning, and decision support systems deployed on high-performance computing (HPC) resources to improve water use efficiency and environmental sustainability.</p>
+
+      <h3>Research Focus and Activities</h3>
+      <div className="section-block">
+        <ul>
+          <li>Led research on real-time crop water stress and irrigation mapping using multispectral UAV imagery, enabling spatially explicit irrigation decision-making under field conditions.</li>
+          <li>Developed and evaluated AI-based irrigation decision support tools to optimize water application, reduce nutrient losses, and improve crop productivity, with emphasis on minimizing environmental contamination from runoff and nutrient leaching.</li>
+          <li>Investigated soil water dynamics in tile-drained fields in the Mid-Atlantic region to better understand subsurface water movement and its implications for irrigation and nutrient management.</li>
+          <li>Conducted machine learning research evaluating modified CNN architectures for soybean disease detection under real field conditions, emphasizing robustness and scalability.</li>
+          <li>Led research quantifying actual nutrient-load reductions in agricultural drainage structures, combining field monitoring and data analysis to assess water quality benefits and environmental impact.</li>
+        </ul>
+      </div>
+
+      <h3>Translational Tools and Outreach</h3>
+      <div className="section-block">
+        <ul>
+          <li>Actively developing a mobile application for irrigation managers and growers to support precise irrigation scheduling, alongside building the laboratory website (agroxai.com) to disseminate research outputs and tools.</li>
+        </ul>
+      </div>
+
+      <h3>Academic Mentoring</h3>
+      <div className="section-block">
+        <ul>
+          <li>Advised undergraduate and graduate students in precision agriculture, AI applications, and water management research at the University of Maryland.</li>
+        </ul>
+      </div>
+
+      <h2>Postdoctoral Research Associate<br />Purdue University</h2>
+      <p>Conducted interdisciplinary research integrating UAV remote sensing, soil proximal sensing, and AI to advance soil health, soil organic carbon (SOC), and soil water dynamics assessment for precision agriculture and sustainable farm management.</p>
+
+      <h3>Research Focus and Activities</h3>
+      <div className="section-block">
+        <ul>
+          <li>Led and contributed to multi-scale soil health and SOC research using multi-depth soil sampling, multispectral UAV imagery, and proximal soil sensors across organic farms in Indiana to support state-level soil health assessments. Integrated UAV, laboratory, and field data to characterize spatiotemporal variability of soil organic carbon and related soil properties.</li>
+          <li>Designed and developed a competitive internal grant proposal titled &quot;Leveraging a Physics-Informed AI Model and UAV Imaging for Monitoring Soil Water Dynamics to Support Precision Farm Management,&quot; focusing on coupling soil physics with AI and UAV imaging for improved irrigation and water management decisions.</li>
+          <li>Employed advanced soil sensing technologies, including Alpha II FT-IR Spectrometer and Veris U-Series Organic Matter sensors, alongside UAV-based multispectral data, to generate high-resolution SOC maps and support data-driven soil management strategies.</li>
+          <li>Conducted a comprehensive review study synthesizing progress, challenges, and future directions in AI-enabled SOC monitoring using UAV and satellite remote sensing, with emphasis on uncertainty, scalability, and operational deployment.</li>
+        </ul>
+      </div>
+
+      <h3>Training, Advising, and Capacity Building</h3>
+      <div className="section-block">
+        <ul>
+          <li>Advised graduate students on field-scale SOC modeling using geospatial data and machine learning.</li>
+          <li>Participated in advanced professional training, including a UAV-Based Phenotyping Data Analysis Workshop (RGB, LiDAR, hyperspectral sensors; GRYFN system) and a two-day Negishi high-performance computing (HPC) workshop at Purdue University.</li>
+        </ul>
+      </div>
+
+      <h2>Ph.D. Research<br />University of Florida</h2>
+      <p>Conducted comprehensive research integrating UAV remote sensing, crop modeling, soil physics, and machine learning to improve irrigation scheduling, evapotranspiration estimation, and soil moisture prediction under variable irrigation regimes.</p>
+
+      <h3>Research Focus and Activities</h3>
+      <div className="section-block">
+        <ul>
+          <li>Evaluated UAV-based multispectral and thermal imaging combined with machine learning for crop phenotyping, water stress detection, and evapotranspiration estimation in sweet corn and green bean systems.</li>
+          <li>Investigated crop responses to full and deficit irrigation, and assessed DSSAT model performance in simulating crop growth, yield, soil moisture, and evapotranspiration under varying water regimes.</li>
+          <li>Developed and evaluated machine learning and deep learning models for soil moisture prediction and reference evapotranspiration estimation, and calibrated empirical ET models within DSSAT.</li>
+          <li>Assessed hydrological and machine learning models for field-scale soil hydrology in calcareous soils (South Florida) under variable rate irrigation (VRI).</li>
+          <li>Designed and implemented an automated UAV thermal and multispectral image processing pipeline for precision agriculture applications.</li>
+        </ul>
+      </div>
+
+      <h3>Data Collection and Technical Expertise</h3>
+      <div className="section-block">
+        <ul>
+          <li>Collected and analyzed four years of UAV thermal and multispectral imagery using DJI Matrice 210 V2, IF1200A, Mavic 3 Multispectral platforms with Zenmuse XT2 Thermal and MicaSense RedEdge-MX sensors.</li>
+          <li>Operated advanced precision agriculture and plant-soil instrumentation, including TEROS 12/21, HYPROP WP4C, pressure bomb, Richard&apos;s Pressure Plate, Tempe cell, IRT sensors, FLIR cameras, SPAD, CIRAS 2 &amp; 3, and porometers.</li>
+          <li>Processed UAV and satellite imagery using Pix4D, ArcGIS, ERDAS, ENVI, QGIS, and conducted advanced analytics in Python and R, leveraging HiPerGator high-performance computing (HPC), machine learning, and deep learning workflows.</li>
+        </ul>
+      </div>
+
+      <h3>Field Work &amp; Research in Action</h3>
+      <div className="project-pictures">
+        <img src="/images/ProjectPictures/IMG_0844.jpg" alt="Field research" width={400} />
+        <img src="/images/ProjectPictures/IMG_0845.jpg" alt="Field research" width={400} />
+      </div>
+
+      <h2>M.Tech./M.Th. Research<br />Banaras Hindu University</h2>
+      <p>Specialized in hydrological modeling, GIS, and remote sensing to simulate surface and subsurface hydrological processes and assess land-use, climate, and water resource dynamics.</p>
+
+      <h3>Research Focus and Activities</h3>
+      <div className="section-block">
+        <ul>
+          <li>Developed SWAT and MIKE 11-NAM hydrological models to simulate evapotranspiration, streamflow, and groundwater dynamics at watershed scales.</li>
+          <li>Conducted extensive GIS and remote sensing analyses, including optical, microwave, and radar data interpretation, photogrammetry, cartography, irrigation scheduling, drought characterization, and climate change impact assessment.</li>
+          <li>Worked with Landsat 4–5/7/8, MODIS, Sentinel-2, LISS-3, ASTER GDEM, and soil datasets for thematic mapping and hydrological analysis.</li>
+          <li>Performed advanced image processing tasks such as radiometric and geometric correction, mosaicking, scan-line error correction, supervised and unsupervised classification, vegetation index computation, and accuracy assessment.</li>
+          <li>Applied spatial modeling, network analysis, TIN/DEM generation, DGPS, and total station surveys using ERDAS, ArcGIS, QGIS, ENVI, and Python.</li>
+        </ul>
+      </div>
+
+      <h2>Leadership and Professional Service</h2>
+      <div className="section-block">
+        <ul>
+          <li>Elected Council Member, Purdue University Postdoctoral Association (PPDA)</li>
+          <li>Organizing Committee Member, Precision Agriculture Technology Conference</li>
+          <li>Active Member, Indiana Organic Network (USDA-NIFA-funded statewide organic farming initiative)</li>
+          <li>Co-Organizer, Technical Session at ASA, CSSA, SSSA Annual Meeting</li>
+          <li>Served as a member of the Tropical Research and Education Center (TREC) Social Committee</li>
+        </ul>
+      </div>
+    </>
+  )
+}
