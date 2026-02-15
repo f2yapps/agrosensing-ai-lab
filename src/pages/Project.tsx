@@ -18,6 +18,10 @@ export default function Project() {
       <h2>Digital Twin Development for Agricultural Water and Nutrient Management</h2>
       <p>Creating IoT-enabled digital twins of agricultural fields, soil-plant systems, and watersheds running on high-performance computing platforms. These digital twins integrate real-time sensor data, weather forecasts, crop models, and hydrological simulations to enable scenario analysis, optimize irrigation and fertilizer applications, and support adaptive management under climate variability and extreme events.</p>
 
+      <figure className="project-figure">
+        <img src="/images/News/diagram2.png" alt="Integrated AI Framework – data flow and components overview" width={900} />
+      </figure>
+
       <h2>AI-Powered Mobile Application for Precision Agriculture Decision Support</h2>
       <p>Developing a mobile application for farmers, irrigation managers, and extension specialists that delivers AI-driven recommendations for irrigation scheduling, nutrient management, and crop stress detection. The app integrates UAV imagery, IoT sensor data, weather information, and machine learning models to provide actionable, field-specific guidance that improves resource efficiency and farm profitability.</p>
 
@@ -36,6 +40,10 @@ export default function Project() {
       <h2>Integrated Pest Management Using AI and Remote Sensing</h2>
       <p>Developing AI-powered early warning systems for agricultural pests and diseases using UAV imagery, weather data, and predictive models. This project enables targeted, timely interventions that reduce pesticide use, lower production costs, and minimize environmental impacts while protecting crop yields in Maryland's diverse agricultural systems.</p>
 
+      <figure className="project-figure">
+        <img src="/images/News/diagram3.png" alt="Integrated AI Framework diagram" width={900} />
+      </figure>
+
       <h2>Soil Health Assessment and Regenerative Agriculture Monitoring</h2>
       <p>Integrating remote sensing, proximal soil sensors, and machine learning to monitor soil health indicators (organic matter, aggregate stability, biological activity, nutrient cycling) across Maryland farms implementing regenerative practices. This research supports USDA NRCS soil health initiatives, quantifies benefits of conservation agriculture, and provides farmers with data-driven feedback on soil management outcomes.</p>
 
@@ -44,13 +52,6 @@ export default function Project() {
 
       <h2>Global Mentorship Platform for Agricultural Capacity Building</h2>
       <p>Expanding a volunteer-based digital platform that connects students and early-career professionals in developing countries with mentors in developed countries. This initiative facilitates knowledge transfer, career guidance, and capacity building in agriculture, natural resources, and engineering, supporting global food security and sustainable development goals.</p>
-
-      <figure className="project-figure">
-        <img src="/images/News/diagram2.png" alt="Integrated AI Framework – data flow and components overview" width={900} />
-      </figure>
-      <figure className="project-figure">
-        <img src="/images/News/diagram3.png" alt="Integrated AI Framework diagram" width={900} />
-      </figure>
 
       <h2>Postdoctoral Research Associate<br />University of Maryland</h2>
       <p>Focused on AI-driven precision irrigation, crop water stress monitoring, and nutrient-load reduction using UAV imagery, IoT sensing networks, digital twins, machine learning, and decision support systems deployed on high-performance computing (HPC) resources to improve water use efficiency and environmental sustainability.</p>
