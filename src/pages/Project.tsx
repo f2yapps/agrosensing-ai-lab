@@ -3,8 +3,8 @@ export default function Project() {
     <>
       <h1 className="page-title">Future Research Projects Interest</h1>
 
-      <h2>AI-Driven Precision Irrigation and Crop Water Stress Monitoring</h2>
-      <p>Developing real-time crop water stress detection and irrigation mapping systems using multispectral UAV imagery, IoT soil moisture sensors, and machine learning algorithms. This project enables spatially explicit irrigation decision-making, optimizes water application, and reduces nutrient losses while improving crop productivity and minimizing environmental contamination from runoff and nutrient leaching in the Chesapeake Bay watershed and Mid-Atlantic agricultural systems.</p>
+      <h2>AI-Driven Precision Irrigation, Crop Water Stress Monitoring, and Digital Twin Development</h2>
+      <p>Developing real-time crop water stress detection and irrigation mapping systems using multispectral UAV imagery, IoT soil moisture sensors, and machine learning algorithms. This project creates IoT-enabled digital twins of agricultural fields, soil-plant systems, and watersheds running on high-performance computing platforms. These digital twins integrate real-time sensor data, weather forecasts, crop models, and hydrological simulations to enable spatially explicit irrigation decision-making, optimize water and fertilizer applications, reduce nutrient losses, and support adaptive management under climate variability. The system improves crop productivity while minimizing environmental contamination from runoff and nutrient leaching in the Chesapeake Bay watershed and Mid-Atlantic agricultural systems.</p>
 
       <h2>Soil Water Dynamics in Tile-Drained Agricultural Systems</h2>
       <p>Investigating subsurface water movement and soil water dynamics in tile-drained fields across the Mid-Atlantic region to better understand implications for irrigation scheduling, nutrient management, and water quality. This research combines field monitoring, hydrological modeling, and AI to quantify nutrient-load reductions in agricultural drainage structures and assess environmental benefits for the Chesapeake Bay restoration efforts.</p>
@@ -12,11 +12,8 @@ export default function Project() {
       <h2>AI-Enabled Plant Disease Detection and Crop Health Monitoring</h2>
       <p>Evaluating modified CNN architectures and deep learning models for automated detection of soybean diseases, corn diseases, and other crop health issues under real field conditions. This project emphasizes robustness, scalability, and deployment of AI models for early disease detection, supporting integrated pest management and reducing pesticide applications in Maryland and regional cropping systems.</p>
 
-      <h2>High-Resolution Soil Organic Carbon Mapping for Climate-Smart Agriculture</h2>
-      <p>Integrating UAV multispectral imagery, proximal soil sensors (FT-IR, electromagnetic induction), terrain attributes, and machine learning to generate high-resolution soil organic carbon (SOC) maps across Maryland agricultural landscapes. This work supports USDA NRCS conservation planning, carbon sequestration initiatives, soil health assessments, and climate mitigation strategies aligned with Maryland's greenhouse gas reduction goals.</p>
-
-      <h2>Digital Twin Development for Agricultural Water and Nutrient Management</h2>
-      <p>Creating IoT-enabled digital twins of agricultural fields, soil-plant systems, and watersheds running on high-performance computing platforms. These digital twins integrate real-time sensor data, weather forecasts, crop models, and hydrological simulations to enable scenario analysis, optimize irrigation and fertilizer applications, and support adaptive management under climate variability and extreme events.</p>
+      <h2>High-Resolution Soil Organic Carbon Mapping and Soil Health Assessment for Climate-Smart Agriculture</h2>
+      <p>Integrating UAV multispectral imagery, proximal soil sensors (FT-IR, electromagnetic induction), terrain attributes, and machine learning to generate high-resolution soil organic carbon (SOC) maps and monitor soil health indicators (organic matter, aggregate stability, biological activity, nutrient cycling) across Maryland agricultural landscapes. This work supports USDA NRCS conservation planning, carbon sequestration initiatives, soil health assessments, and climate mitigation strategies aligned with Maryland's greenhouse gas reduction goals. The research quantifies benefits of regenerative agriculture and conservation practices, providing farmers with data-driven feedback on soil management outcomes.</p>
 
       <figure className="project-figure">
         <img src="/images/News/diagram2.png" alt="Integrated AI Framework – data flow and components overview" width={900} />
@@ -44,13 +41,10 @@ export default function Project() {
         <img src="/images/News/diagram3.png" alt="Integrated AI Framework diagram" width={900} />
       </figure>
 
-      <h2>Soil Health Assessment and Regenerative Agriculture Monitoring</h2>
-      <p>Integrating remote sensing, proximal soil sensors, and machine learning to monitor soil health indicators (organic matter, aggregate stability, biological activity, nutrient cycling) across Maryland farms implementing regenerative practices. This research supports USDA NRCS soil health initiatives, quantifies benefits of conservation agriculture, and provides farmers with data-driven feedback on soil management outcomes.</p>
-
       <h2>Precision Nutrient Management for Specialty Crops</h2>
       <p>Optimizing nitrogen, phosphorus, and micronutrient management for Maryland specialty crops (vegetables, fruits, greenhouse production) using UAV multispectral imagery, plant tissue analysis, and machine learning. This project reduces fertilizer costs, minimizes nutrient losses, and improves crop quality and marketability for Maryland's high-value agricultural sectors.</p>
 
-      <h2>Global Mentorship Platform for Agricultural Capacity Building</h2>
+      <h2>Global Mentorship Platform for Academic Capacity Building</h2>
       <p>Expanding a volunteer-based digital platform that connects students and early-career professionals in developing countries with mentors in developed countries. This initiative facilitates knowledge transfer, career guidance, and capacity building in agriculture, natural resources, and engineering, supporting global food security and sustainable development goals.</p>
 
       <h2>Postdoctoral Research Associate<br />University of Maryland</h2>
