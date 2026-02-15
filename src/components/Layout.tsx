@@ -8,7 +8,7 @@ export default function Layout() {
       <nav className="site-nav">
         <div className="site-nav-inner">
           <div className="site-name">
-            <NavLink to="/">AgroSensing &amp; AI Lab</NavLink>
+            <NavLink to="/">Fitsum Teshome, Ph.D.</NavLink>
           </div>
           <ul className="nav-links">
             <li><NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink></li>
@@ -38,7 +38,7 @@ export default function Layout() {
         <div className="site-footer-inner">
           <div className="footer-grid">
             <div className="footer-branding">
-              <div className="footer-name">AgroSensing &amp; AI Lab</div>
+              <div className="footer-name">Fitsum Teshome, Ph.D.</div>
               <p className="footer-org">University of Maryland College Park</p>
               <p className="footer-org">Central Maryland Research and Education Center</p>
               <p className="footer-address">395 Greenmead Drive<br />College Park, MD 20740</p>
@@ -58,7 +58,7 @@ export default function Layout() {
               <p>(O): <a href="tel:+17864915076">+1 786-491-5076</a></p>
             </div>
           </div>
-          <div className="footer-copy">© 2026 AgroSensing &amp; AI Lab. All rights reserved.</div>
+          <div className="footer-copy">© 2026 Fitsum Teshome. All rights reserved.</div>
         </div>
       </footer>
     </>
