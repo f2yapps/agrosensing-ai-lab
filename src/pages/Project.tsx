@@ -97,7 +97,8 @@ export default function Project() {
       <h3>Training, Advising, and Capacity Building</h3>
       <div className="section-block">
         <ul>
-          <li>Advised graduate students on field-scale SOC modeling using geospatial data and machine learning.</li>
+          <li>Advised graduate students for their thesis works, particularly on field-level soil organic carbon modeling using geospatial data and machine learning algorithms.</li>
+          <li>Developed protocols and trained graduate students on: operating U3000 Veris OM sensor, preparing for FAA Part 107 drone license, operating Negishi high-performance computing (HPC), and ethical use of LLMs (ChatGPT, Gemini, Copilot, DeepSeek, Meta LLaMA) for research analysis, writing, and editing.</li>
           <li>Participated in advanced professional training, including a UAV-Based Phenotyping Data Analysis Workshop (RGB, LiDAR, hyperspectral sensors; GRYFN system) and a two-day Negishi high-performance computing (HPC) workshop at Purdue University.</li>
         </ul>
       </div>
@@ -145,16 +146,6 @@ export default function Project() {
         </ul>
       </div>
 
-      <h2>Leadership and Professional Service</h2>
-      <div className="section-block">
-        <ul>
-          <li>Elected Council Member, Purdue University Postdoctoral Association (PPDA)</li>
-          <li>Organizing Committee Member, Precision Agriculture Technology Conference</li>
-          <li>Active Member, Indiana Organic Network (USDA-NIFA-funded statewide organic farming initiative)</li>
-          <li>Co-Organizer, Technical Session at ASA, CSSA, SSSA Annual Meeting</li>
-          <li>Served as a member of the Tropical Research and Education Center (TREC) Social Committee</li>
-        </ul>
-      </div>
     </>
   )
 }
