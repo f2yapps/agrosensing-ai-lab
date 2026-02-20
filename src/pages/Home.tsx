@@ -7,13 +7,13 @@ export default function Home() {
         <p className="subtitle">Post-Doctoral Research Associate</p>
         <p className="institution">Central Maryland Research &amp; Education Center<br />College of Agriculture and Natural Resources, University of Maryland</p>
         
-        <div className="social-links" style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', alignItems: 'center', marginTop: '1.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
+        <div className="social-links" style={{ display: 'flex', gap: '1.5rem', justifyContent: 'flex-start', alignItems: 'center', marginTop: '1.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
           <a href="http://tiny.cc/2cf4001" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', textDecoration: 'none', color: 'inherit' }} title="Google Scholar">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
             <span>Google Scholar</span>
           </a>
           <a href="http://tiny.cc/4cf4001" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', textDecoration: 'none', color: 'inherit' }} title="ResearchGate">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19.586 0c.818 0 1.591.353 2.122.97l2.122 2.122c.617.531.97 1.304.97 2.122v14.172c0 1.657-1.343 3-3 3H2.414c-1.657 0-3-1.343-3-3V3.414c0-1.657 1.343-3 3-3h17.172zM6.5 4.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm5.5 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm5.5 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM6 13.5h12a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2zm0 4h12a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2z"/></svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="#00CCBB"><path d="M19.586 0c.818 0 1.591.353 2.122.97l2.122 2.122c.617.531.97 1.304.97 2.122v14.172c0 1.657-1.343 3-3 3H2.414c-1.657 0-3-1.343-3-3V3.414c0-1.657 1.343-3 3-3h17.172zm-9.523 6.124c-.696.992-1.022 2.143-1.022 3.496 0 1.352.326 2.503 1.022 3.495.696.993 1.598 1.488 2.707 1.488 1.11 0 2.011-.495 2.707-1.488.696-.992 1.022-2.143 1.022-3.495 0-1.353-.326-2.504-1.022-3.496-.696-.993-1.598-1.488-2.707-1.488-1.11 0-2.011.495-2.707 1.488zm10.263 4.491c-.247.252-.57.378-.97.378h-2.094v2.094c0 .4-.126.723-.378.97s-.57.378-.97.378-.723-.126-.97-.378-.378-.57-.378-.97v-2.094h-2.094c-.4 0-.723-.126-.97-.378s-.378-.57-.378-.97.126-.723.378-.97.57-.378.97-.378h2.094v-2.094c0-.4.126-.723.378-.97s.57-.378.97-.378.723.126.97.378.378.57.378.97v2.094h2.094c.4 0 .723.126.97.378s.378.57.378.97-.131.718-.378.97z"/></svg>
             <span>ResearchGate</span>
           </a>
           <a href="http://tiny.cc/dcf4001" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', textDecoration: 'none', color: 'inherit' }} title="YouTube">
