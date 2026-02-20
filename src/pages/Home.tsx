@@ -2,7 +2,6 @@ export default function Home() {
   return (
     <>
       <div className="intro-block">
-        <p className="hero-tagline">Transforming Agriculture with AI and Geospatial Intelligence</p>
         <h1 className="page-title">Fitsum Teshome, Ph.D.</h1>
         <p className="subtitle">Post-Doctoral Research Associate</p>
         <p className="institution">Central Maryland Research &amp; Education Center<br />College of Agriculture and Natural Resources, University of Maryland</p>
