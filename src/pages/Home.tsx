@@ -37,7 +37,7 @@ export default function Home() {
       </div>
 
       <h2>About</h2>
-      <p>I am a Post-Doctoral Research Associate at the University of Maryland specializing in precision and digital agriculture. I hold a Ph.D. from the University of Florida in Agricultural and Biological Engineering. My research integrates AI, remote sensing, IoT sensor networks, digital twins, and process-based modeling to optimize water and nutrient management, enhance soil health monitoring, and increase agroecosystem resilience under climate variability.</p>
+      <p>I am a Post-Doctoral Research Associate at the University of Maryland with expertise spanning artificial intelligence, geospatial technologies, precision agriculture, and environmental sensing systems. I hold a Ph.D. from the University of Florida in Agricultural and Biological Engineering. My research integrates AI, remote sensing, IoT sensor networks, digital twins, and process-based modeling to optimize water and nutrient management, enhance soil health monitoring, and increase agroecosystem resilience under climate variability.</p>
 
       <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
         <img src="/images/News/Banners16.png" alt="Research overview" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
