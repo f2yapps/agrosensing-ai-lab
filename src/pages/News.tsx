@@ -23,7 +23,6 @@ export default function News() {
         <li><strong>Two Presentation Excellence Awards</strong> at ASABE 2023 Annual International Meeting for the oral presentation: &quot;Application of Unmanned Aerial Vehicle (UAV)-Based Imaging and Machine Learning for Plant Phenotyping.&quot;</li>
         <li><strong>Second place</strong>, Graduate Student Presentation Competition, Florida Section ASABE — &quot;Evaluating Field Scale Crop Growth Simulation Models in South Florida.&quot;</li>
         <li><strong>$2500 travel grant</strong>, University of Florida IFAS Graduate School, for Graduate Research Day presentation, Gainesville.</li>
-        <li><strong>Co-Investigator</strong>: Spatio-Temporal Analysis of Temperature and Precipitation Distribution and Variability Over Bale Zone, Ethiopia. Madda Walabu University. Grant MWU/RGCS/004-2017. Institute of Technology (2017–2018), $31,000.</li>
       </ul>
 
       <figure style={{ margin: '2rem 0', textAlign: 'center' }}>

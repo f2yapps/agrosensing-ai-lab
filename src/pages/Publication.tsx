@@ -7,12 +7,12 @@ export default function Publication() {
       <p><strong>Peer-reviewed total: 23</strong> | h-index: 14 | i10-index: 15</p>
       
       <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', margin: '1.5rem 0', flexWrap: 'wrap' }}>
-        <a href="http://tiny.cc/2cf4001" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', border: '1px solid #ddd', borderRadius: '4px', textDecoration: 'none' }}>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24C5.372 24 0 18.627 0 12S5.372 0 12 0s12 5.373 12 12-5.372 12-12 12zm-.14-9.283h2.023l.157-2.023h-2.18V11.31c0-.66.097-1.027.76-1.027h1.42V8.31c-.243-.032-.974-.097-1.852-.097-1.833 0-3.09 1.12-3.09 3.172v1.408h-2.023v2.023h2.023v5.872c.406.063.82.097 1.243.097.422 0 .836-.034 1.243-.097v-5.872z"/></svg>
+        <a href="http://tiny.cc/2cf4001" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', border: '2px solid #4285F4', borderRadius: '8px', textDecoration: 'none', color: '#4285F4', fontWeight: '500', transition: 'all 0.3s' }}>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#4285F4"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
           <span>View on Google Scholar</span>
         </a>
-        <a href="http://tiny.cc/4cf4001" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', border: '1px solid #ddd', borderRadius: '4px', textDecoration: 'none' }}>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.586 0c.818 0 1.591.353 2.122.97l2.122 2.122c.617.531.97 1.304.97 2.122v14.172c0 1.657-1.343 3-3 3H2.414c-1.657 0-3-1.343-3-3V3.414c0-1.657 1.343-3 3-3h17.172zM6 8c-1.105 0-2 .895-2 2s.895 2 2 2 2-.895 2-2-.895-2-2-2zm6 0c-1.105 0-2 .895-2 2s.895 2 2 2 2-.895 2-2-.895-2-2-2zm6 0c-1.105 0-2 .895-2 2s.895 2 2 2 2-.895 2-2-.895-2-2-2z"/></svg>
+        <a href="http://tiny.cc/4cf4001" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', border: '2px solid #00D0B5', borderRadius: '8px', textDecoration: 'none', color: '#00D0B5', fontWeight: '500', transition: 'all 0.3s' }}>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#00D0B5"><path d="M19.586 0c.818 0 1.591.353 2.122.97l2.122 2.122c.617.531.97 1.304.97 2.122v14.172c0 1.657-1.343 3-3 3H2.414c-1.657 0-3-1.343-3-3V3.414c0-1.657 1.343-3 3-3h17.172zM6.5 4.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm5.5 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm5.5 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM6 13.5h12a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2zm0 4h12a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2z"/></svg>
           <span>View on ResearchGate</span>
         </a>
       </div>
