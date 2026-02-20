@@ -26,6 +26,10 @@ export default function News() {
         <li><strong>Co-Investigator</strong>: Spatio-Temporal Analysis of Temperature and Precipitation Distribution and Variability Over Bale Zone, Ethiopia. Madda Walabu University. Grant MWU/RGCS/004-2017. Institute of Technology (2017–2018), $31,000.</li>
       </ul>
 
+      <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
+        <img src="/images/News/Banners19.png" alt="Research achievements" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+      </figure>
+
       <h2>Professional License</h2>
       <ul className="news-list">
         <li><strong>Remote Pilot — Small Unmanned Aircraft</strong> (FAA Part 107).</li>
@@ -44,6 +48,10 @@ export default function News() {
         <li><strong>YouTube</strong>: Dr. Fitsum Teshome channel — 190+ videos, 12,650+ subscribers, 2.4+ million views on remote sensing, GIS, and data analytics.</li>
         <li>Guest lectures and training on UAV imaging, high-performance computing (HPC), Veris OM sensor, and ethical use of LLMs in research (Purdue).</li>
       </ul>
+
+      <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
+        <img src="/images/News/Banners22.png" alt="Outreach and community engagement" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+      </figure>
     </>
   )
 }

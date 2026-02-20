@@ -16,6 +16,13 @@ const RESEARCH_HIGHLIGHTS = [
 export default function Project() {
   return (
     <>
+      <h1 className="page-title">Research Mission</h1>
+      <p>Building AI-enabled agricultural intelligence systems that integrate UAV and satellite imagery, IoT sensor networks, weather data, and process-based models with machine learning and digital twins to support precision water and nutrient management, soil carbon monitoring, and ecosystem resilience. Developing automated pipelines and decision support tools that translate complex agroecosystem processes into actionable guidance for sustainable resource management.</p>
+
+      <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
+        <img src="/images/News/Banner9.png" alt="Field research and technology" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+      </figure>
+
       <section className="abstract-cards-section">
         <h2>Research Highlights &amp; Graphical Abstracts</h2>
         {RESEARCH_HIGHLIGHTS.map((item, i) => (
@@ -43,26 +50,6 @@ export default function Project() {
         ))}
       </section>
 
-      <h2>Research Mission</h2>
-      <p>Building AI-enabled agricultural intelligence systems that integrate UAV and satellite imagery, IoT sensor networks, weather data, and process-based models with machine learning and digital twins to support precision water and nutrient management, soil carbon monitoring, and ecosystem resilience. Developing automated pipelines and decision support tools that translate complex agroecosystem processes into actionable guidance for sustainable resource management.</p>
-
-      <h2>Research Focus Areas</h2>
-      
-      <h3>AI-Driven Precision Water and Nutrient Management</h3>
-      <p>Integrating UAV imagery, IoT soil moisture sensors, and weather data with machine learning and crop models to predict soil moisture dynamics, evapotranspiration, and crop water stress. Developing decision-support tools including AgriSenAI (automated UAV image processing pipeline) and mobile applications for precision irrigation and nutrient management.</p>
-
-      <h3>Soil Carbon Modeling and Ecosystem Resilience</h3>
-      <p>Leveraging process-based models (RothC, DayCent, Century), AI, and geospatial analytics to generate high-resolution soil organic carbon maps and predict carbon dynamics under climate stress, supporting carbon-smart agriculture and conservation targeting.</p>
-
-      <h3>Hydrologic Dynamics and Water Resource Management</h3>
-      <p>Applying hydrological models and AI to evaluate soil-water-nutrient interactions and water fluxes, supporting irrigation optimization, water quality improvement, and sustainable water resource management.</p>
-
-      <h3>IoT, Digital Twins, and High-Performance Computing</h3>
-      <p>Developing IoT-enabled digital twins of fields, soil-plant systems, and watersheds on HPC platforms, enabling real-time data assimilation, scenario analysis, and scalable simulation for timely decision-making.</p>
-
-      <h3>AI for Crop and Animal Health</h3>
-      <p>Developing AI systems for early detection of plant diseases and pests using UAV imagery and deep learning. Creating mobile applications for livestock disease diagnosis using smartphone images and text inputs, addressing diagnostic gaps in resource-limited settings.</p>
-
       <h2 className="page-title">Future Research Projects</h2>
 
       <h2 className="cluster-title">Precision Water and Nutrient Management</h2>
@@ -79,11 +66,19 @@ export default function Project() {
       <h2 className="cluster-title">Soil Health, Carbon Dynamics, and Climate Resilience</h2>
       <p>Integrating UAV multispectral imagery, proximal soil sensors (FT-IR, electromagnetic induction), and ML to generate high-resolution SOC maps and monitor soil health indicators across Maryland landscapes. Assessing climate change impacts using crop models and hydrological simulations. Evaluating adaptation strategies including deficit irrigation, heat-tolerant varieties, cover cropping, and conservation practices to enhance agricultural resilience and support carbon sequestration initiatives.</p>
 
+      <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
+        <img src="/images/News/Banners17.png" alt="Soil health and carbon dynamics research" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+      </figure>
+
       <h2 className="cluster-title">AI-Enabled Crop Health and Pest Management</h2>
       <p>Developing AI systems for early detection of plant diseases and pests using modified CNN architectures, deep learning, UAV imagery, and weather data. Creating early warning systems and deploying scalable AI models for integrated pest management. Optimizing nutrient management for Maryland specialty crops and urban agriculture using UAV imagery, remote sensing, IoT, and ML to support urban food production and green infrastructure.</p>
 
       <h2 className="cluster-title">Global Capacity Building and Knowledge Transfer</h2>
       <p>Expanding a volunteer-based digital platform connecting students and early-career professionals in developing countries with mentors in developed countries, facilitating knowledge transfer, scholarship opportunities, and capacity building in agriculture, water resources, AI, and engineering.</p>
+
+      <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
+        <img src="/images/News/Bannners20.png" alt="Global capacity building" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+      </figure>
 
     </>
   )

@@ -5,6 +5,21 @@ export default function Publication() {
     <>
       <h1 className="page-title">Publications</h1>
       <p><strong>Peer-reviewed total: 23</strong> | h-index: 14 | i10-index: 15</p>
+      
+      <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', margin: '1.5rem 0', flexWrap: 'wrap' }}>
+        <a href="http://tiny.cc/2cf4001" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', border: '1px solid #ddd', borderRadius: '4px', textDecoration: 'none' }}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24C5.372 24 0 18.627 0 12S5.372 0 12 0s12 5.373 12 12-5.372 12-12 12zm-.14-9.283h2.023l.157-2.023h-2.18V11.31c0-.66.097-1.027.76-1.027h1.42V8.31c-.243-.032-.974-.097-1.852-.097-1.833 0-3.09 1.12-3.09 3.172v1.408h-2.023v2.023h2.023v5.872c.406.063.82.097 1.243.097.422 0 .836-.034 1.243-.097v-5.872z"/></svg>
+          <span>View on Google Scholar</span>
+        </a>
+        <a href="http://tiny.cc/4cf4001" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', border: '1px solid #ddd', borderRadius: '4px', textDecoration: 'none' }}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.586 0c.818 0 1.591.353 2.122.97l2.122 2.122c.617.531.97 1.304.97 2.122v14.172c0 1.657-1.343 3-3 3H2.414c-1.657 0-3-1.343-3-3V3.414c0-1.657 1.343-3 3-3h17.172zM6 8c-1.105 0-2 .895-2 2s.895 2 2 2 2-.895 2-2-.895-2-2-2zm6 0c-1.105 0-2 .895-2 2s.895 2 2 2 2-.895 2-2-.895-2-2-2zm6 0c-1.105 0-2 .895-2 2s.895 2 2 2 2-.895 2-2-.895-2-2-2z"/></svg>
+          <span>View on ResearchGate</span>
+        </a>
+      </div>
+
+      <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
+        <img src="/images/News/Banners13.png" alt="Research publications overview" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+      </figure>
 
       <h2>Peer-Reviewed Journal Articles</h2>
       <ol className="pub-list">

@@ -3,6 +3,10 @@ export default function Teaching() {
     <>
       <h1 className="page-title">Teaching &amp; Outreach</h1>
 
+      <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
+        <img src="/images/News/Banners15.png" alt="Teaching and outreach activities" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+      </figure>
+
       <h2>Academic &amp; Professional Teaching</h2>
       <div className="section-block">
         <ul>
@@ -36,6 +40,10 @@ export default function Teaching() {
         <p><strong>Dr. Fitsum Teshome</strong> on YouTube: 190+ videos, 12,650+ subscribers, 2.4+ million total views. Content covers remote sensing, GIS, satellite imagery, digital surface models, water resources management, and data analytics.</p>
         <p><a href="https://rb.gy/7iwk6" target="_blank" rel="noopener noreferrer">YouTube Channel → https://rb.gy/7iwk6</a></p>
       </div>
+
+      <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
+        <img src="/images/News/Banner10.png" alt="Educational content and training" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+      </figure>
 
       <h2>Journal Peer Review</h2>
       <div className="section-block">
