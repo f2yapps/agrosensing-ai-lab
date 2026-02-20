@@ -39,6 +39,18 @@ export default function Teaching() {
       <div className="section-block">
         <p><strong>Dr. Fitsum Teshome</strong> on YouTube: 190+ videos, 12,650+ subscribers, 2.4+ million total views. Content covers remote sensing, GIS, satellite imagery, digital surface models, water resources management, and data analytics.</p>
         <p><a href="https://rb.gy/7iwk6" target="_blank" rel="noopener noreferrer">YouTube Channel → https://rb.gy/7iwk6</a></p>
+        
+        <h3 style={{ marginTop: '1.5rem' }}>Featured Video: Popular Tutorial on Remote Sensing and GIS</h3>
+        <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', marginTop: '1rem' }}>
+          <iframe 
+            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+            src="https://www.youtube.com/embed/lPY_5HxFB_8?start=822" 
+            title="Dr. Fitsum Teshome - Remote Sensing and GIS Tutorial"
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
 
       <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
