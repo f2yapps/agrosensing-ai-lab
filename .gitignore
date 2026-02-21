@@ -4,11 +4,6 @@ node_modules/
 # Build output
 dist/
 
-# Large video files
-*.mov
-*.mp4
-*.avi
-
 # OS files
 .DS_Store
 Thumbs.db

@@ -63,6 +63,22 @@ export default function Project() {
         <img src="/images/News/diagram2.png" alt="Integrated AI Framework – data flow and components overview" width={600} />
       </figure>
 
+      <div style={{ margin: '3rem 0' }}>
+        <h3 style={{ textAlign: 'center', marginBottom: '1rem' }}>AI-Based Irrigation Scheduler in Action</h3>
+        <p style={{ textAlign: 'center', marginBottom: '1.5rem', color: '#666' }}>Demonstration of our AI-driven precision irrigation decision support tool</p>
+        <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <video 
+            controls 
+            style={{ width: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }}
+            poster="/images/Highlights/Hightlights13.png"
+          >
+            <source src="/images/Highlights/AI_based Irrigation Schedalur.mov" type="video/quicktime" />
+            <source src="/images/Highlights/AI_based Irrigation Schedalur.mov" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
       <h2 className="cluster-title">Soil Health, Carbon Dynamics, and Climate Resilience</h2>
       <p>Integrating UAV multispectral imagery, proximal soil sensors (FT-IR, electromagnetic induction), and ML to generate high-resolution SOC maps and monitor soil health indicators across Maryland landscapes. Assessing climate change impacts using crop models and hydrological simulations. Evaluating adaptation strategies including deficit irrigation, heat-tolerant varieties, cover cropping, and conservation practices to enhance agricultural resilience and support carbon sequestration initiatives.</p>
 
