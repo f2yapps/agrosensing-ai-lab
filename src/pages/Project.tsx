@@ -66,27 +66,11 @@ export default function Project() {
       <div style={{ margin: '3rem 0', padding: '0 1rem' }}>
         <h3 style={{ textAlign: 'center', marginBottom: '1rem' }}>AI-Based Irrigation Scheduler in Action</h3>
         <p style={{ textAlign: 'center', marginBottom: '1.5rem', color: '#666' }}>Demonstration of our AI-driven precision irrigation decision support tool</p>
-        <div style={{ maxWidth: '900px', margin: '0 auto', overflow: 'hidden' }}>
-          <video 
-            controls 
-            preload="metadata"
-            playsInline
-            style={{ 
-              width: '100%', 
-              maxHeight: '600px',
-              height: 'auto', 
-              display: 'block',
-              borderRadius: '8px', 
-              boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
-              objectFit: 'contain',
-              backgroundColor: '#000'
-            }}
-            poster="/images/Highlights/Hightlights13.png"
-          >
-            <source src="/images/Highlights/AI_based Irrigation Schedalur.mov" type="video/mp4" />
-            <source src="/images/Highlights/AI_based Irrigation Schedalur.mov" type="video/quicktime" />
-            Your browser does not support the video tag. Please try viewing on a different browser.
-          </video>
+        <p style={{ textAlign: 'center', marginBottom: '1.5rem', fontSize: '0.95rem', color: '#888' }}>
+          <em>Video coming soon - Upload your irrigation scheduler video to YouTube and we'll embed it here!</em>
+        </p>
+        <div style={{ textAlign: 'center', padding: '2rem', backgroundColor: '#f0f9ff', borderRadius: '8px' }}>
+          <img src="/images/Highlights/Hightlights13.png" alt="AI Irrigation Decision Support Tool" style={{ maxWidth: '600px', width: '100%', height: 'auto', borderRadius: '8px' }} />
         </div>
       </div>
 
