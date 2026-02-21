@@ -19,6 +19,21 @@ export default function Project() {
       <h1 className="page-title">Research Mission</h1>
       <p>Building AI-enabled agricultural intelligence systems that integrate UAV and satellite imagery, IoT sensor networks, weather data, and process-based models with machine learning and digital twins to support precision water and nutrient management, soil carbon monitoring, and ecosystem resilience. Developing automated pipelines and decision support tools that translate complex agroecosystem processes into actionable guidance for sustainable resource management.</p>
 
+      <div style={{ margin: '3rem 0', padding: '0 1rem' }}>
+        <h3 style={{ textAlign: 'center', marginBottom: '1rem' }}>AI-Based Irrigation Scheduler in Action</h3>
+        <p style={{ textAlign: 'center', marginBottom: '1.5rem', color: '#666' }}>Demonstration of our AI-driven precision irrigation decision support tool</p>
+        <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '900px', margin: '0 auto' }}>
+          <iframe 
+            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', borderRadius: '8px' }}
+            src="https://www.youtube.com/embed/mQc7ViBGvns" 
+            title="AI-Based Irrigation Scheduler Demonstration"
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+
       <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
         <img src="/images/News/Banner9.png" alt="Field research and technology" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
       </figure>
@@ -62,21 +77,6 @@ export default function Project() {
       <figure className="project-figure">
         <img src="/images/News/diagram2.png" alt="Integrated AI Framework – data flow and components overview" width={600} />
       </figure>
-
-      <div style={{ margin: '3rem 0', padding: '0 1rem' }}>
-        <h3 style={{ textAlign: 'center', marginBottom: '1rem' }}>AI-Based Irrigation Scheduler in Action</h3>
-        <p style={{ textAlign: 'center', marginBottom: '1.5rem', color: '#666' }}>Demonstration of our AI-driven precision irrigation decision support tool</p>
-        <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '900px', margin: '0 auto' }}>
-          <iframe 
-            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', borderRadius: '8px' }}
-            src="https://www.youtube.com/embed/mQc7ViBGvns" 
-            title="AI-Based Irrigation Scheduler Demonstration"
-            frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
 
       <h2 className="cluster-title">Soil Health, Carbon Dynamics, and Climate Resilience</h2>
       <p>Integrating UAV multispectral imagery, proximal soil sensors (FT-IR, electromagnetic induction), and ML to generate high-resolution SOC maps and monitor soil health indicators across Maryland landscapes. Assessing climate change impacts using crop models and hydrological simulations. Evaluating adaptation strategies including deficit irrigation, heat-tolerant varieties, cover cropping, and conservation practices to enhance agricultural resilience and support carbon sequestration initiatives.</p>
