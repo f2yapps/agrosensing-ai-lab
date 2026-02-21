@@ -66,11 +66,15 @@ export default function Project() {
       <div style={{ margin: '3rem 0', padding: '0 1rem' }}>
         <h3 style={{ textAlign: 'center', marginBottom: '1rem' }}>AI-Based Irrigation Scheduler in Action</h3>
         <p style={{ textAlign: 'center', marginBottom: '1.5rem', color: '#666' }}>Demonstration of our AI-driven precision irrigation decision support tool</p>
-        <p style={{ textAlign: 'center', marginBottom: '1.5rem', fontSize: '0.95rem', color: '#888' }}>
-          <em>Video coming soon - Upload your irrigation scheduler video to YouTube and we'll embed it here!</em>
-        </p>
-        <div style={{ textAlign: 'center', padding: '2rem', backgroundColor: '#f0f9ff', borderRadius: '8px' }}>
-          <img src="/images/Highlights/Hightlights13.png" alt="AI Irrigation Decision Support Tool" style={{ maxWidth: '600px', width: '100%', height: 'auto', borderRadius: '8px' }} />
+        <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '900px', margin: '0 auto' }}>
+          <iframe 
+            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', borderRadius: '8px' }}
+            src="https://www.youtube.com/embed/mQc7ViBGvns" 
+            title="AI-Based Irrigation Scheduler Demonstration"
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
 
