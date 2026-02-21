@@ -63,18 +63,29 @@ export default function Project() {
         <img src="/images/News/diagram2.png" alt="Integrated AI Framework – data flow and components overview" width={600} />
       </figure>
 
-      <div style={{ margin: '3rem 0' }}>
+      <div style={{ margin: '3rem 0', padding: '0 1rem' }}>
         <h3 style={{ textAlign: 'center', marginBottom: '1rem' }}>AI-Based Irrigation Scheduler in Action</h3>
         <p style={{ textAlign: 'center', marginBottom: '1.5rem', color: '#666' }}>Demonstration of our AI-driven precision irrigation decision support tool</p>
-        <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+        <div style={{ maxWidth: '900px', margin: '0 auto', overflow: 'hidden' }}>
           <video 
             controls 
-            style={{ width: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }}
+            preload="metadata"
+            playsInline
+            style={{ 
+              width: '100%', 
+              maxHeight: '600px',
+              height: 'auto', 
+              display: 'block',
+              borderRadius: '8px', 
+              boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+              objectFit: 'contain',
+              backgroundColor: '#000'
+            }}
             poster="/images/Highlights/Hightlights13.png"
           >
-            <source src="/images/Highlights/AI_based Irrigation Schedalur.mov" type="video/quicktime" />
             <source src="/images/Highlights/AI_based Irrigation Schedalur.mov" type="video/mp4" />
-            Your browser does not support the video tag.
+            <source src="/images/Highlights/AI_based Irrigation Schedalur.mov" type="video/quicktime" />
+            Your browser does not support the video tag. Please try viewing on a different browser.
           </video>
         </div>
       </div>

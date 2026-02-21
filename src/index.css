@@ -1186,3 +1186,19 @@ li {
     font-size: clamp(0.875rem, 1vw + 0.8rem, 0.95rem);
   }
 }
+
+/* Video elements */
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+video::-webkit-media-controls-panel {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-volume-slider {
+  filter: brightness(1.2);
+}
