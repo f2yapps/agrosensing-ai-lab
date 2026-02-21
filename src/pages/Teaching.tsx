@@ -29,13 +29,13 @@ export default function Teaching() {
       <h2>Extension &amp; Field Days</h2>
       <div className="section-block">
         <ul>
-          <li>Field day on sensor networks, UAVs, and IoT platforms for precision irrigation and nutrient management — <strong>Miami-Dade College</strong> students (2020).</li>
-          <li>Field day on sensor networks, UAVs, and IoT for precision irrigation and nutrient management — <strong>Miami-Dade College</strong> students (2021).</li>
-          <li>Field day on sensor networks, UAVs, and IoT for precision irrigation and nutrient management — <strong>Homestead High School</strong> students (2022).</li>
+          <li>Field day on sensor networks, UAVs, and IoT platforms for precision irrigation and nutrient management - <strong>Miami-Dade College</strong> students (2020).</li>
+          <li>Field day on sensor networks, UAVs, and IoT for precision irrigation and nutrient management - <strong>Miami-Dade College</strong> students (2021).</li>
+          <li>Field day on sensor networks, UAVs, and IoT for precision irrigation and nutrient management - <strong>Homestead High School</strong> students (2022).</li>
         </ul>
       </div>
 
-      <h2>Outreach — YouTube Channel</h2>
+      <h2>Outreach - YouTube Channel</h2>
       <div className="section-block">
         <p><strong>Dr. Fitsum Teshome</strong> on YouTube: 190+ videos, 12,650+ subscribers, 2.4+ million total views. Content covers remote sensing, GIS, satellite imagery, digital surface models, water resources management, and data analytics.</p>
         <p><a href="https://rb.gy/7iwk6" target="_blank" rel="noopener noreferrer">YouTube Channel → https://rb.gy/7iwk6</a></p>
@@ -77,14 +77,14 @@ export default function Teaching() {
       <h2>Certificates &amp; Academic Training</h2>
       <div className="section-block">
         <ul>
-          <li>Hydrologic Modelling Using RS/GIS With Special Reference to Climate Change — National Institute of Hydrology, Roorkee, India (March 28–31, 2016).</li>
-          <li>LATEX and other open-source software — Institute of Agricultural Science, Department of Farm Engineering, Banaras Hindu University, Varanasi, India.</li>
-          <li>Watershed Planning and Management — Indian Institute of Soil and Water Conservation, Dehradun, India.</li>
-          <li>Analysis of Spatio-Temporal Variability of Rainfall and Hydrological Streamflow Modelling Using SWAT and Mike 11-NAM — National Institute of Hydrology, Roorkee, India.</li>
-          <li>Lifetime Member — Indian Association of Hydrologists, Roorkee, India.</li>
-          <li>American Society of Agricultural and Biological Engineers (ASABE) — Member.</li>
-          <li>DSSAT Crop Growth Simulation Model — DSSAT Foundation, University of Georgia, Griffin, GA.</li>
-          <li>1D, 2D, and 3D HYDRUS Models — PC-Progress, University of California, Riverside, CA.</li>
+          <li>Hydrologic Modelling Using RS/GIS With Special Reference to Climate Change - National Institute of Hydrology, Roorkee, India (March 28-31, 2016).</li>
+          <li>LATEX and other open-source software - Institute of Agricultural Science, Department of Farm Engineering, Banaras Hindu University, Varanasi, India.</li>
+          <li>Watershed Planning and Management - Indian Institute of Soil and Water Conservation, Dehradun, India.</li>
+          <li>Analysis of Spatio-Temporal Variability of Rainfall and Hydrological Streamflow Modelling Using SWAT and Mike 11-NAM - National Institute of Hydrology, Roorkee, India.</li>
+          <li>Lifetime Member - Indian Association of Hydrologists, Roorkee, India.</li>
+          <li>American Society of Agricultural and Biological Engineers (ASABE) - Member.</li>
+          <li>DSSAT Crop Growth Simulation Model - DSSAT Foundation, University of Georgia, Griffin, GA.</li>
+          <li>1D, 2D, and 3D HYDRUS Models - PC-Progress, University of California, Riverside, CA.</li>
         </ul>
       </div>
     </>

@@ -46,15 +46,15 @@ export default function Home() {
       <h2>Education Background</h2>
       <div className="section-block">
         <div className="two-col">
-          <div><strong>Ph.D.</strong> — University of Florida, USA<br /><em>Agricultural and Biological Engineering</em></div>
+          <div><strong>Ph.D.</strong> - University of Florida, USA<br /><em>Agricultural and Biological Engineering</em></div>
           <span className="date">2024</span>
         </div>
         <div className="two-col">
-          <div><strong>M.Th.</strong> — Banaras Hindu University, India<br /><em>Agricultural Engineering</em></div>
+          <div><strong>M.Th.</strong> - Banaras Hindu University, India<br /><em>Agricultural Engineering</em></div>
           <span className="date">2016</span>
         </div>
         <div className="two-col">
-          <div><strong>B.Sc.</strong> — Haramaya University, Ethiopia<br /><em>Agricultural and Biological Engineering</em></div>
+          <div><strong>B.Sc.</strong> - Haramaya University, Ethiopia<br /><em>Agricultural and Biological Engineering</em></div>
           <span className="date">2011</span>
         </div>
       </div>
@@ -62,13 +62,13 @@ export default function Home() {
       <h2>Professional Experience</h2>
       <div className="section-block">
         <ul>
-          <li><strong>Post-Doctoral Research Associate</strong>, University of Maryland, College of Agriculture and Natural Resources, Central Maryland Research &amp; Education Center, Precision and Digital Agriculture Lab, 10/19/2025–Present.</li>
-          <li><strong>Post-Doctoral Research Associate</strong>, Purdue University, College of Agriculture, Department of Agronomy, Geoinformatics, Ecosystem Management &amp; Soil Sustainability (GEMS), 09/16/2024–10/15/2025.</li>
-          <li><strong>Graduate Research Assistant</strong>, Department of Agricultural and Biological Engineering, Tropical Research and Education Center, University of Florida, 01/01/2021–08/16/2024.</li>
-          <li><strong>Research Scholar</strong>, Department of Agricultural and Biological Engineering, Tropical Research and Education Center, University of Florida, 11/01/2019–12/31/2020.</li>
-          <li><strong>Lecturer and Researcher</strong>, Department of Natural Resource Management, Madda Walabu University, Ethiopia, 07/16/2016–10/01/2019.</li>
-          <li><strong>Assistant Lecturer and Researcher</strong>, Department of Natural Resource Management, Madda Walabu University, Ethiopia, 12/07/2012–08/08/2014.</li>
-          <li><strong>Instructor I &amp; II</strong>, Agarfa ATVET College, Ministry of Agriculture and Natural Resources, Ethiopia, 08/07/2011–12/06/2012.</li>
+          <li><strong>Post-Doctoral Research Associate</strong>, University of Maryland, College of Agriculture and Natural Resources, Central Maryland Research &amp; Education Center, Precision and Digital Agriculture Lab, 10/19/2025 - Present.</li>
+          <li><strong>Post-Doctoral Research Associate</strong>, Purdue University, College of Agriculture, Department of Agronomy, Geoinformatics, Ecosystem Management &amp; Soil Sustainability (GEMS), 09/16/2024 - 10/15/2025.</li>
+          <li><strong>Graduate Research Assistant</strong>, Department of Agricultural and Biological Engineering, Tropical Research and Education Center, University of Florida, 01/01/2021 - 08/16/2024.</li>
+          <li><strong>Research Scholar</strong>, Department of Agricultural and Biological Engineering, Tropical Research and Education Center, University of Florida, 11/01/2019 - 12/31/2020.</li>
+          <li><strong>Lecturer and Researcher</strong>, Department of Natural Resource Management, Madda Walabu University, Ethiopia, 07/16/2016 - 10/01/2019.</li>
+          <li><strong>Assistant Lecturer and Researcher</strong>, Department of Natural Resource Management, Madda Walabu University, Ethiopia, 12/07/2012 - 08/08/2014.</li>
+          <li><strong>Instructor I &amp; II</strong>, Agarfa ATVET College, Ministry of Agriculture and Natural Resources, Ethiopia, 08/07/2011 - 12/06/2012.</li>
         </ul>
       </div>
 

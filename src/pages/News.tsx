@@ -9,11 +9,11 @@ export default function News() {
       <h2>Position &amp; Appointments</h2>
       <ul className="news-list">
         <li>
-          <span className="news-date">October 2025 – Present</span>
+          <span className="news-date">October 2025 - Present</span>
           <strong>Post-Doctoral Research Associate</strong>, University of Maryland, College of Agriculture and Natural Resources, Central Maryland Research &amp; Education Center, Precision and Digital Agriculture Lab.
         </li>
         <li>
-          <span className="news-date">September 2024 – October 2025</span>
+          <span className="news-date">September 2024 - October 2025</span>
           <strong>Post-Doctoral Research Associate</strong>, Purdue University, College of Agriculture, Department of Agronomy, Geoinformatics, Ecosystem Management &amp; Soil Sustainability (GEMS).
         </li>
       </ul>
@@ -21,7 +21,7 @@ export default function News() {
       <h2>Research Grants &amp; Awards</h2>
       <ul className="news-list">
         <li><strong>Two Presentation Excellence Awards</strong> at ASABE 2023 Annual International Meeting for the oral presentation: &quot;Application of Unmanned Aerial Vehicle (UAV)-Based Imaging and Machine Learning for Plant Phenotyping.&quot;</li>
-        <li><strong>Second place</strong>, Graduate Student Presentation Competition, Florida Section ASABE — &quot;Evaluating Field Scale Crop Growth Simulation Models in South Florida.&quot;</li>
+        <li><strong>Second place</strong>, Graduate Student Presentation Competition, Florida Section ASABE - &quot;Evaluating Field Scale Crop Growth Simulation Models in South Florida.&quot;</li>
         <li><strong>$2500 travel grant</strong>, University of Florida IFAS Graduate School, for Graduate Research Day presentation, Gainesville.</li>
       </ul>
 
@@ -31,7 +31,7 @@ export default function News() {
 
       <h2>Professional License</h2>
       <ul className="news-list">
-        <li><strong>Remote Pilot — Small Unmanned Aircraft</strong> (FAA Part 107).</li>
+        <li><strong>Remote Pilot - Small Unmanned Aircraft</strong> (FAA Part 107).</li>
       </ul>
 
       <h2>Recent Publications &amp; Submissions</h2>
@@ -44,7 +44,7 @@ export default function News() {
 
       <h2>Outreach Highlights</h2>
       <ul className="news-list">
-        <li><strong>YouTube</strong>: Dr. Fitsum Teshome channel — 190+ videos, 12,650+ subscribers, 2.4+ million views on remote sensing, GIS, and data analytics.</li>
+        <li><strong>YouTube</strong>: Dr. Fitsum Teshome channel - 190+ videos, 12,650+ subscribers, 2.4+ million views on remote sensing, GIS, and data analytics.</li>
         <li>Guest lectures and training on UAV imaging, high-performance computing (HPC), Veris OM sensor, and ethical use of LLMs in research (Purdue).</li>
       </ul>
 
