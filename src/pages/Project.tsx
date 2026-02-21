@@ -34,10 +34,6 @@ export default function Project() {
         </div>
       </div>
 
-      <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
-        <img src="/images/News/Banner9.png" alt="Field research and technology" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
-      </figure>
-
       <section className="abstract-cards-section">
         <h2>Research Highlights &amp; Graphical Abstracts</h2>
         {RESEARCH_HIGHLIGHTS.map((item, i) => (
@@ -87,6 +83,10 @@ export default function Project() {
 
       <h2 className="cluster-title">AI-Enabled Crop Health and Pest Management</h2>
       <p>Developing AI systems for early detection of plant diseases and pests using modified CNN architectures, deep learning, UAV imagery, and weather data. Creating early warning systems and deploying scalable AI models for integrated pest management. Optimizing nutrient management for Maryland specialty crops and urban agriculture using UAV imagery, remote sensing, IoT, and ML to support urban food production and green infrastructure.</p>
+
+      <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
+        <img src="/images/News/Banner9.png" alt="Field research and technology" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+      </figure>
 
       <h2 className="cluster-title">Global Capacity Building and Knowledge Transfer</h2>
       <p>Expanding a volunteer-based digital platform connecting students and early-career professionals in developing countries with mentors in developed countries, facilitating knowledge transfer, scholarship opportunities, and capacity building in agriculture, water resources, AI, and engineering.</p>
