@@ -37,7 +37,11 @@ export default function Home() {
       </div>
 
       <h2>About</h2>
-      <p>I am a Post-Doctoral Research Associate at the University of Maryland with expertise spanning artificial intelligence, geospatial technologies, precision agriculture, and environmental sensing systems. I hold a Ph.D. from the University of Florida in Agricultural and Biological Engineering. My research integrates AI, remote sensing, IoT sensor networks, digital twins, and process-based modeling to optimize water and nutrient management, enhance soil health monitoring, and increase agroecosystem resilience under climate variability.</p>
+      <p>Fitsum Teshome is a Postdoctoral Research Associate at the University of Maryland, where he advances data-driven solutions for sustainable agriculture and water resources management. He earned his Ph.D. in Agricultural and Biological Engineering from the University of Florida.</p>
+      
+      <p>His research centers on surface and subsurface hydrology, integrating advanced artificial intelligence (AI) algorithms with water stress indices and process-based hydrological models. He develops innovative frameworks that combine remote and proximal sensing, IoT-enabled sensor networks, edge computing, high-performance computing, drone-based imaging, and digital twin technologies to improve water and nutrient management, enhance soil health monitoring, and strengthen agroecosystem resilience under climate variability.</p>
+      
+      <p>With several years of research and teaching experience in global change science, geospatial analytics, environmental sensing systems, and water resources modeling, Dr. Teshome bridges physics-based understanding with intelligent systems to deliver scalable, precision-driven solutions for climate-smart agriculture.</p>
 
       <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
         <img src="/images/News/Banners16.png" alt="Research overview" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
