@@ -40,6 +40,10 @@ export default function Publication() {
         <li>Hailegnaw, N.S., Bayabil, H.K., <strong>Teshome, F.</strong>, Li, Y., Gao, B., 2023. Impacts of flooding-induced salinity on soil hydrology and nutrient leaching from a poorly drained marl soil. ASABE 2023, Omaha, Nebraska. <a href="https://doi.org/10.13031/aim.202300377" target="_blank" rel="noopener">doi:10.13031/aim.202300377</a></li>
       </ul>
 
+      <figure style={{ margin: '2.5rem 0', textAlign: 'center' }}>
+        <img src="/images/News/Banner8.PNG" alt="Conference presentations" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+      </figure>
+
       <h2>Invited Conference Abstracts</h2>
       <ul className="pub-list">
         <li><strong>Teshome, F.T.</strong>, H. Bayabil, N. Hailegnaw, and M. Berihun. 2023. Evaluating field-scale hydrologic and crop simulation models in South Florida. Greater Everglades Ecosystem Restoration (GEER) Science Conference. Coral Springs, FL. April 17–20, 2023.</li>
