@@ -44,7 +44,7 @@ export default function Home() {
       <p>With several years of research and teaching experience in global change science, geospatial analytics, environmental sensing systems, and water resources modeling, Dr. Teshome bridges physics-based understanding with intelligent systems to deliver scalable, precision-driven solutions for climate-smart agriculture.</p>
 
       <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
-        <img src="/images/News/Banners16.png" alt="Research overview" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+        <img src="/images/News/ThematicAreas.png" alt="Research thematic areas" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
       </figure>
 
       <h2>Education Background</h2>

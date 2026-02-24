@@ -25,7 +25,7 @@ export default function Project() {
         <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '900px', margin: '0 auto' }}>
           <iframe 
             style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', borderRadius: '8px' }}
-            src="https://www.youtube.com/embed/mQc7ViBGvns" 
+            src="https://www.youtube.com/embed/6GB2gLgE4i4" 
             title="AI-Based Irrigation Scheduler Demonstration"
             frameBorder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
