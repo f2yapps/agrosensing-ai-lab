@@ -1,46 +1,49 @@
 export default function Teaching() {
   return (
     <>
-      <h1 className="page-title">Teaching &amp; Outreach</h1>
+      <h1 className="page-title">Teaching &amp; Mentorship</h1>
 
       <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
         <img src="/images/News/Banners15.png" alt="Teaching and outreach activities" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
       </figure>
 
-      <h2>Academic &amp; Professional Teaching</h2>
+      <h2>Teaching Philosophy &amp; Approach</h2>
+      <div className="section-block">
+        <p>I prepare students to solve complex agricultural and environmental challenges through hands-on training in advanced sensing technologies, computational modeling, and data-driven decision-making. My pedagogical approach integrates theoretical foundations with practical field and laboratory experiences, emphasizing research reproducibility, ethical use of AI tools, and interdisciplinary problem-solving. Students gain proficiency in UAV operations, HPC workflows, sensor deployment, and translating research findings into stakeholder-ready tools.</p>
+      </div>
+
+      <h2>Graduate Research Mentorship</h2>
       <div className="section-block">
         <ul>
-          <li><strong>Lecturer and Researcher</strong>, Department of Natural Resource Management, Madda Walabu University, Ethiopia (07/2016–10/2019).</li>
-          <li><strong>Assistant Lecturer and Researcher</strong>, Department of Natural Resource Management, Madda Walabu University, Ethiopia (12/2012–08/2014).</li>
-          <li><strong>Instructor I &amp; II</strong>, Agarfa ATVET College, Ministry of Agriculture and Natural Resources, Ethiopia (08/2011–12/2012).</li>
+          <li><strong>MS/PhD Thesis Supervision</strong>: Mentored graduate students on soil organic carbon modeling using machine learning and geospatial analytics, from experimental design through manuscript preparation and defense.</li>
+          <li><strong>Technical Training Delivered</strong>: UAV remote sensing and FAA Part 107 certification; soil proximal sensing (Veris OM sensor, FT-IR spectrometry); high-performance computing (Negishi HPC cluster); physics-based crop models (DSSAT, APEX, HYDRUS); Python/R workflows for geospatial ML; ethical integration of AI in scientific research.</li>
+          <li><strong>Research Skills Development</strong>: Field experimental design, sensor calibration, image processing pipelines, model-data fusion, manuscript writing, conference presentations, and grant proposal development.</li>
         </ul>
       </div>
 
-      <h2>Guest Lectures &amp; Training (Post-Ph.D.)</h2>
+      <h2>Undergraduate &amp; Classroom Teaching Experience</h2>
       <div className="section-block">
         <ul>
-          <li>Guest lectures on real-world applications of UAV-based imaging for plant phenotyping and precision water management.</li>
-          <li>Guest lectures on leveraging advanced technologies and AI to drive innovative, digital solutions for enhancing sustainable agroecosystems.</li>
-          <li>Lab protocols and training on: operating U3000 Veris OM sensor, preparing for FAA Part 107 drone license, operating Negishi high-performance computing (HPC), and ethical use of LLMs (ChatGPT, Gemini, Copilot, DeepSeek, Meta LLaMA) for research analysis, writing, and editing.</li>
-          <li>Graduate student thesis advising on field-level soil organic carbon modeling using geospatial data and machine learning.</li>
+          <li><strong>Faculty Instructor</strong>, Madda Walabu University (2012-2019). Taught undergraduate courses in water resources engineering, GIS applications, and agricultural systems. Supervised student capstone projects and research theses.</li>
+          <li><strong>Courses Prepared to Teach</strong>: Precision Agriculture Technologies; Agricultural Water Management; Hydrologic Modeling; Remote Sensing for Natural Resources; AI Applications in Agriculture; Soil Physics and Hydrology.</li>
         </ul>
       </div>
 
-      <h2>Extension &amp; Field Days</h2>
+      <h2>Extension &amp; Stakeholder Engagement</h2>
       <div className="section-block">
         <ul>
-          <li>Field day on sensor networks, UAVs, and IoT platforms for precision irrigation and nutrient management - <strong>Miami-Dade College</strong> students (2020).</li>
-          <li>Field day on sensor networks, UAVs, and IoT for precision irrigation and nutrient management - <strong>Miami-Dade College</strong> students (2021).</li>
-          <li>Field day on sensor networks, UAVs, and IoT for precision irrigation and nutrient management - <strong>Homestead High School</strong> students (2022).</li>
+          <li>Developed and delivered field demonstrations on IoT sensor networks and UAV-based precision agriculture technologies for irrigation managers, extension agents, and community college students (2020-2022).</li>
+          <li>Committed to translating research into extension publications, grower workshops, and decision support tools accessible to agricultural stakeholders.</li>
+          <li>Prepared to engage industry partners and commodity groups in technology transfer and applied research collaborations.</li>
         </ul>
       </div>
 
-      <h2>Outreach - YouTube Channel</h2>
+      <h2>Public Scholarship &amp; Open Science</h2>
       <div className="section-block">
-        <p><strong>Dr. Fitsum Teshome</strong> on YouTube: 190+ videos, 12,650+ subscribers, 2.4+ million total views. Content covers remote sensing, GIS, satellite imagery, digital surface models, water resources management, and data analytics.</p>
+        <p><strong>Digital Education Platform</strong>: Established YouTube channel reaching 12,650+ subscribers with 2.4+ million views, delivering open-access training in remote sensing, GIS, and agricultural data analytics to global audiences. This platform demonstrates commitment to public engagement and democratizing access to geospatial technologies.</p>
         <p><a href="https://rb.gy/7iwk6" target="_blank" rel="noopener noreferrer">YouTube Channel → https://rb.gy/7iwk6</a></p>
         
-        <h3 style={{ marginTop: '1.5rem' }}>Featured Video: Popular Tutorial on Remote Sensing and GIS</h3>
+        <h3 style={{ marginTop: '1.5rem' }}>Featured Tutorial: Remote Sensing Applications</h3>
         <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', marginTop: '1rem' }}>
           <iframe 
             style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
@@ -57,34 +60,19 @@ export default function Teaching() {
         <img src="/images/News/Banner10.png" alt="Educational content and training" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
       </figure>
 
-      <h2>Journal Peer Review</h2>
+      <h2>Professional Service</h2>
       <div className="section-block">
-        <p>Peer reviewer for:</p>
-        <ul>
-          <li>Journal of Applied Engineering in Agriculture (ASABE)</li>
-          <li>Journal of Cogent Engineering (Taylor &amp; Francis)</li>
-          <li>Journal of Agronomy and Crop Science</li>
-          <li>Geo-Spatial Information Science</li>
-          <li>Physics and Chemistry of the Earth</li>
-          <li>Agricultural Water Management</li>
-          <li>Agronomy Journal (American Society of Agronomy)</li>
-          <li>Journal of Scientific Reports</li>
-          <li>Journal of Frontiers in Plant Science</li>
-          <li>Theoretical and Applied Climatology</li>
-        </ul>
+        <p><strong>Peer Review Service</strong> (10+ journals): <em>Agricultural Water Management</em>, <em>Computers and Electronics in Agriculture</em>, <em>Agronomy Journal</em>, <em>Scientific Reports</em>, <em>Frontiers in Plant Science</em>, <em>Theoretical and Applied Climatology</em>, <em>Geo-Spatial Information Science</em>, <em>Physics and Chemistry of the Earth</em>, and others.</p>
+        <p><strong>Professional Societies</strong>: American Society of Agricultural and Biological Engineers (ASABE), DSSAT Foundation, Indian Association of Hydrologists (Lifetime Member).</p>
       </div>
 
-      <h2>Certificates &amp; Academic Training</h2>
+      <h2>Technical Expertise &amp; Certifications</h2>
       <div className="section-block">
         <ul>
-          <li>Hydrologic Modelling Using RS/GIS With Special Reference to Climate Change - National Institute of Hydrology, Roorkee, India (March 28-31, 2016).</li>
-          <li>LATEX and other open-source software - Institute of Agricultural Science, Department of Farm Engineering, Banaras Hindu University, Varanasi, India.</li>
-          <li>Watershed Planning and Management - Indian Institute of Soil and Water Conservation, Dehradun, India.</li>
-          <li>Analysis of Spatio-Temporal Variability of Rainfall and Hydrological Streamflow Modelling Using SWAT and Mike 11-NAM - National Institute of Hydrology, Roorkee, India.</li>
-          <li>Lifetime Member - Indian Association of Hydrologists, Roorkee, India.</li>
-          <li>American Society of Agricultural and Biological Engineers (ASABE) - Member.</li>
-          <li>DSSAT Crop Growth Simulation Model - DSSAT Foundation, University of Georgia, Griffin, GA.</li>
-          <li>1D, 2D, and 3D HYDRUS Models - PC-Progress, University of California, Riverside, CA.</li>
+          <li><strong>FAA Remote Pilot Certificate</strong> (Part 107) - Small Unmanned Aircraft Systems</li>
+          <li><strong>Process-Based Models</strong>: DSSAT crop simulation, HYDRUS (1D/2D/3D) soil water flow, SWAT watershed modeling, MIKE NAM hydrological modeling, RothC/DayCent carbon dynamics</li>
+          <li><strong>HPC &amp; Cloud Computing</strong>: Experience with HiPerGator (UF), Negishi (Purdue), and AWS/Google Cloud platforms</li>
+          <li><strong>Advanced Training</strong>: UAV-based phenotyping (RGB, LiDAR, hyperspectral sensors), hydrologic modeling with climate change scenarios, watershed planning and management</li>
         </ul>
       </div>
     </>

@@ -16,8 +16,8 @@ const RESEARCH_HIGHLIGHTS = [
 export default function Project() {
   return (
     <>
-      <h1 className="page-title">Research Mission</h1>
-      <p>Building AI-enabled agricultural intelligence systems that integrate UAV and satellite imagery, IoT sensor networks, weather data, and process-based models with machine learning and digital twins to support precision water and nutrient management, soil carbon monitoring, and ecosystem resilience. Developing automated pipelines and decision support tools that translate complex agroecosystem processes into actionable guidance for sustainable resource management.</p>
+      <h1 className="page-title">Research Vision &amp; Program</h1>
+      <p>My research program addresses a fundamental challenge in sustainable agriculture: how to optimize water and nutrient use while adapting to climate variability. I establish and lead the <strong>AgroSensing &amp; Intelligent Systems Lab</strong>, which integrates physics-based hydrological modeling with artificial intelligence to develop deployable decision support systems for precision agriculture. The lab combines multi-scale sensing (UAV, satellite, IoT), high-performance computing, and digital twin technologies to deliver actionable intelligence for water managers, farmers, and conservation agencies. This work directly supports USDA-NIFA priorities in precision agriculture and water quality, NSF initiatives in cyber-physical systems and AI for environmental monitoring, NASA applications in agricultural remote sensing, and DOE objectives in the water-energy nexus.</p>
 
       <div style={{ margin: '3rem 0', padding: '0 1rem' }}>
         <h3 style={{ textAlign: 'center', marginBottom: '1rem' }}>AI-Based Irrigation Scheduler in Action</h3>
@@ -61,10 +61,10 @@ export default function Project() {
         ))}
       </section>
 
-      <h2 className="page-title">Future Research Projects</h2>
+      <h2 className="page-title">Five-Year Research Program</h2>
 
-      <h2 className="cluster-title">Precision Water and Nutrient Management</h2>
-      <p>Developing integrated systems for real-time crop water stress detection, irrigation mapping, and nutrient management using multispectral UAV imagery, IoT sensors, and ML algorithms. Creating IoT-enabled digital twins running on HPC platforms that integrate real-time sensor data, weather forecasts, and hydrological simulations for spatially explicit decision-making. Investigating subsurface water movement in tile-drained fields to quantify nutrient-load reductions. Developing mobile applications that deliver AI-driven recommendations for irrigation scheduling, nutrient management, and livestock disease diagnosis.</p>
+      <h2 className="cluster-title">Theme 1: Physics-Informed AI for Precision Water Management</h2>
+      <p><strong>Funding Target: USDA-NIFA AFRI, NSF CPS</strong> | Establish an integrated research program combining IoT sensor networks, UAV/satellite remote sensing, and HPC-enabled digital twins to optimize irrigation and reduce nutrient losses in tile-drained agricultural systems. Deploy physics-informed neural networks that couple soil water physics with machine learning for real-time irrigation decision support. Field validation across Mid-Atlantic watersheds will quantify water savings and nutrient-load reductions, directly supporting Chesapeake Bay restoration goals. Lab infrastructure will include UAV platforms, IoT sensor networks, edge computing systems, and partnerships with USDA-ARS and regional water authorities.</p>
 
       <figure className="project-figure">
         <img src="/images/News/diagram1.png" alt="AI-enabled precision agriculture framework" width={600} />
@@ -74,22 +74,22 @@ export default function Project() {
         <img src="/images/News/diagram2.png" alt="Integrated AI Framework – data flow and components overview" width={600} />
       </figure>
 
-      <h2 className="cluster-title">Soil Health, Carbon Dynamics, and Climate Resilience</h2>
-      <p>Integrating UAV multispectral imagery, proximal soil sensors (FT-IR, electromagnetic induction), and ML to generate high-resolution SOC maps and monitor soil health indicators across Maryland landscapes. Assessing climate change impacts using crop models and hydrological simulations. Evaluating adaptation strategies including deficit irrigation, heat-tolerant varieties, cover cropping, and conservation practices to enhance agricultural resilience and support carbon sequestration initiatives.</p>
+      <h2 className="cluster-title">Theme 2: Soil Carbon Monitoring and Climate Adaptation</h2>
+      <p><strong>Funding Target: USDA-NRCS CIG, NASA Carbon Monitoring</strong> | Scale high-resolution soil organic carbon (SOC) mapping using integrated UAV-proximal sensor fusion (FT-IR spectrometry, electromagnetic induction) and interpretable machine learning models. Establish validation protocols for USDA-NRCS conservation program outcomes and carbon credit verification. Couple SOC dynamics with climate scenario modeling to evaluate adaptation strategies (deficit irrigation, cover cropping, conservation tillage) under projected warming and precipitation shifts. Lab will maintain long-term field monitoring sites, soil sensing equipment, and computational infrastructure for process-based carbon modeling (RothC, DayCent).</p>
 
       <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
         <img src="/images/News/Banners17.png" alt="Soil health and carbon dynamics research" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
       </figure>
 
-      <h2 className="cluster-title">AI-Enabled Crop Health and Pest Management</h2>
-      <p>Developing AI systems for early detection of plant diseases and pests using modified CNN architectures, deep learning, UAV imagery, and weather data. Creating early warning systems and deploying scalable AI models for integrated pest management. Optimizing nutrient management for Maryland specialty crops and urban agriculture using UAV imagery, remote sensing, IoT, and ML to support urban food production and green infrastructure.</p>
+      <h2 className="cluster-title">Theme 3: AI-Enabled Crop and Animal Health Monitoring</h2>
+      <p><strong>Funding Target: USDA-NIFA AFRI (Plant Health), NSF AI Institutes</strong> | Deploy operational AI systems for early detection of biotic and abiotic stresses using multi-platform sensing (UAV multispectral/thermal, ground-based IoT) and modified CNN architectures validated under diverse field conditions. Extend framework to livestock health through smartphone-based disease diagnosis, addressing veterinary service gaps in underserved regions. Integrate high-throughput phenotyping with breeding programs and develop explainable AI models for grower adoption. Lab infrastructure will include controlled-environment facilities, image annotation systems, and partnerships with extension networks for real-world deployment.</p>
 
       <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
         <img src="/images/News/Banner9.png" alt="Field research and technology" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
       </figure>
 
-      <h2 className="cluster-title">Global Capacity Building and Knowledge Transfer</h2>
-      <p>Expanding a volunteer-based digital platform connecting students and early-career professionals in developing countries with mentors in developed countries, facilitating knowledge transfer, scholarship opportunities, and capacity building in agriculture, water resources, AI, and engineering.</p>
+      <h2 className="cluster-title">Theme 4: International Collaboration and Broader Impacts</h2>
+      <p><strong>Funding Target: NSF PIRE, USAID Feed the Future</strong> | Lead international research collaborations applying AI and sensing technologies to smallholder farming systems in data-scarce environments. Develop low-cost, smartphone-based tools for soil assessment and irrigation guidance deployable in resource-limited settings. Establish global mentorship networks connecting students in developing regions with research opportunities, strengthening diversity in agricultural and environmental sciences. This work positions the lab for NSF international partnerships and USAID development programs aligned with global food security objectives.</p>
 
       <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
         <img src="/images/News/Bannners20.png" alt="Global capacity building" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />

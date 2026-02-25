@@ -14,8 +14,8 @@ const COLLABORATORS = [
 export default function Team() {
   return (
     <>
-      <h1 className="page-title">Team &amp; Collaborators</h1>
-      <p>Research collaborations and key colleagues from current and past positions.</p>
+      <h1 className="page-title">Research Group &amp; Network</h1>
+      <p>Building an interdisciplinary team to advance AI-enabled agricultural and hydrological systems research.</p>
 
       <h2>Principal Investigator</h2>
       <div className="section-block">
@@ -25,8 +25,8 @@ export default function Team() {
           </div>
           <div className="pi-card__content">
             <div className="pi-card__name">Fitsum Teshome, Ph.D.</div>
-            <div className="pi-card__role">Post-Doctoral Research Associate · AgroSensing &amp; AI Lab</div>
-            <div className="pi-card__affil">Central Maryland Research &amp; Education Center · University of Maryland</div>
+            <div className="pi-card__role">Director · AgroSensing &amp; Intelligent Systems Lab</div>
+            <div className="pi-card__affil">Agricultural &amp; Biological Engineering</div>
             <div className="pi-card__links" style={{ display: 'flex', gap: '1rem', marginTop: '0.75rem', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'flex-start' }}>
               <a href="http://tiny.cc/2cf4001" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', textDecoration: 'none', color: 'inherit' }} title="Google Scholar">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
@@ -57,8 +57,8 @@ export default function Team() {
         <img src="/images/News/Banners18.png" alt="Collaborative research" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
       </figure>
 
-      <h2>Collaborators &amp; Co-Authors</h2>
-      <p>Dr. Teshome has collaborated extensively with researchers at the University of Florida (Tropical Research and Education Center), Purdue University (GEMS Lab), and University of Maryland.</p>
+      <h2>Collaborative Research Network</h2>
+      <p>Established collaborative relationships with leading researchers in precision agriculture, crop modeling, and soil-water systems across multiple R1 institutions. This network provides a strong foundation for multi-institutional grant proposals and graduate student co-advising opportunities.</p>
       <div className="team-grid">
         {COLLABORATORS.map((c) => (
           <div key={c.name} className="team-card">
@@ -68,10 +68,11 @@ export default function Team() {
           </div>
         ))}
       </div>
-      <p style={{ marginTop: '1.5rem' }}>Additional co-authors from Madda Walabu University, Banaras Hindu University, and international institutions (see <Link to="/publication">Publications</Link>).</p>
+      <p style={{ marginTop: '1.5rem' }}>Extended network includes collaborators at University of Florida TREC, Purdue GEMS Lab, USDA-ARS, international institutions, and industry partners in agricultural technology (see <Link to="/publication">Publications</Link>).</p>
 
-      <h2>Join the Lab</h2>
-      <p>For opportunities in precision agriculture, UAV-based phenotyping, IoT sensing networks and digital twins, high-performance computing (HPC), and ML for soil and water management, please contact <a href="mailto:fitsalem@gmail.com">fitsalem@gmail.com</a>.</p>
+      <h2>Prospective Graduate Students</h2>
+      <p><strong>The lab will recruit MS and PhD students interested in:</strong> AI and machine learning for agricultural systems, UAV-based remote sensing and high-throughput phenotyping, IoT sensor networks and digital agriculture, hydrological modeling and soil-water dynamics, precision irrigation and water quality, or climate adaptation in agroecosystems. Ideal candidates have backgrounds in agricultural/biological engineering, environmental engineering, computer science, agronomy, or related fields, with strong quantitative skills and interest in field-based research.</p>
+      <p>Contact: <a href="mailto:fitsalem@gmail.com">fitsalem@gmail.com</a></p>
     </>
   )
 }

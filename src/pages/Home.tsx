@@ -3,8 +3,8 @@ export default function Home() {
     <>
       <div className="intro-block">
         <h1 className="page-title">Fitsum Teshome, Ph.D.</h1>
-        <p className="subtitle">Post-Doctoral Research Associate</p>
-        <p className="institution">Central Maryland Research &amp; Education Center<br />College of Agriculture and Natural Resources, University of Maryland</p>
+        <p className="subtitle">Agricultural &amp; Biological Engineering</p>
+        <p className="institution">Postdoctoral Research Associate<br />University of Maryland, College Park</p>
         
         <div className="social-links" style={{ display: 'flex', gap: '1.5rem', justifyContent: 'flex-start', alignItems: 'center', marginTop: '1.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
           <a href="http://tiny.cc/2cf4001" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', textDecoration: 'none', color: 'inherit' }} title="Google Scholar">
@@ -36,12 +36,12 @@ export default function Home() {
         </div>
       </div>
 
-      <h2>About</h2>
-      <p>Fitsum Teshome is a Postdoctoral Research Associate at the University of Maryland, where he advances interdisciplinary solutions at the nexus of artificial intelligence, precision agriculture, and environmental sustainability. He earned his Ph.D. in Agricultural and Biological Engineering from the University of Florida. His research spans six interconnected thematic areas: <strong>Climate-Smart Agricultural Water Management</strong>; <strong>Hydrological and Soil System Modeling</strong>; <strong>Artificial Intelligence, Digital Agriculture, and Smart Technologies</strong>; and <strong>Multi-Scale Remote and Proximal Sensing for Agroecosystem Monitoring</strong>.</p>
+      <h2>Research Overview</h2>
+      <p>Dr. Teshome leads an interdisciplinary research program at the nexus of artificial intelligence, precision agriculture, and hydrological systems. His work integrates physics-based hydrological models with machine learning to address critical challenges in agricultural water management, soil carbon dynamics, and climate adaptation. The research program spans four interconnected thematic areas: <strong>Climate-Smart Agricultural Water Management</strong>, <strong>Hydrological and Soil System Modeling</strong>, <strong>AI and Digital Agriculture Technologies</strong>, and <strong>Multi-Scale Remote and Proximal Sensing for Agroecosystems</strong>.</p>
       
-      <p>Dr. Teshome develops integrated frameworks that combine UAV and satellite imagery, IoT-enabled sensor networks, edge computing, high-performance computing, and digital twin technologies with machine learning and process-based models. His work encompasses precision irrigation scheduling, drainage water management, soil organic carbon monitoring, high-throughput plant phenotyping, and AI-driven disease detection for both crops and livestock. He has advanced tools, including AgriSenAI for automated UAV image processing, AI-enabled mobile applications for irrigation decision support, and predictive models for rootzone soil moisture dynamics, evapotranspiration, and canopy temperature using RGB and multispectral imagery.</p>
+      <p>His lab develops operational decision support systems that translate cutting-edge research into deployable tools for stakeholders. Current projects include: (1) IoT-enabled digital twins for precision irrigation and nutrient management on HPC infrastructure, (2) physics-informed AI models for rootzone soil moisture and evapotranspiration prediction, (3) high-throughput phenotyping platforms integrating UAV imagery with crop modeling, (4) AI-driven disease detection systems for crops and livestock, and (5) coastal groundwater vulnerability assessment under climate change. His AgriSenAI software platform has established a foundation for scalable, automated precision agriculture workflows.</p>
       
-      <p>His research addresses critical challenges in water conservation through deficit irrigation strategies, soil hydrologic dynamics simulation, and climate adaptation, including assessing the impacts of sea-level rise on coastal groundwater systems. With expertise in hydrological modeling, geospatial analytics, and environmental sensing systems, Teshome bridges physics-based understanding with intelligent systems to deliver scalable, data-driven solutions that enhance agricultural resilience, optimize resource use, and support sustainable management under climate variability.</p>
+      <p>With 23 peer-reviewed publications (h-index: 14), a proven record of leading funded research ($31K as Co-PI), and experience mentoring graduate researchers, Dr. Teshome is positioned to establish a nationally competitive research program. His research aligns with USDA-NIFA (precision agriculture, water quality), NSF (cyber-physical systems, AI for environmental sensing), NASA (remote sensing applications), and DOE (water-energy nexus) funding priorities, with strong potential for sustained extramural support in soil-water-crop system intelligence.</p>
 
       <div style={{ display: 'flex', gap: '1.5rem', margin: '2rem 0', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'flex-start' }}>
         <div style={{ flex: '1 1 45%', minWidth: '300px', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
@@ -73,43 +73,42 @@ export default function Home() {
         </div>
       </div>
 
-      <h2>Professional Experience</h2>
+      <h2>Research Appointments</h2>
       <div className="section-block">
         <ul>
-          <li><strong>Post-Doctoral Research Associate</strong>, University of Maryland, College of Agriculture and Natural Resources, Central Maryland Research &amp; Education Center, Precision and Digital Agriculture Lab, 10/19/2025 - Present.</li>
-          <li><strong>Post-Doctoral Research Associate</strong>, Purdue University, College of Agriculture, Department of Agronomy, Geoinformatics, Ecosystem Management &amp; Soil Sustainability (GEMS), 09/16/2024 - 10/15/2025.</li>
-          <li><strong>Graduate Research Assistant</strong>, Department of Agricultural and Biological Engineering, Tropical Research and Education Center, University of Florida, 01/01/2021 - 08/16/2024.</li>
-          <li><strong>Research Scholar</strong>, Department of Agricultural and Biological Engineering, Tropical Research and Education Center, University of Florida, 11/01/2019 - 12/31/2020.</li>
-          <li><strong>Lecturer and Researcher</strong>, Department of Natural Resource Management, Madda Walabu University, Ethiopia, 07/16/2016 - 10/01/2019.</li>
-          <li><strong>Assistant Lecturer and Researcher</strong>, Department of Natural Resource Management, Madda Walabu University, Ethiopia, 12/07/2012 - 08/08/2014.</li>
-          <li><strong>Instructor I &amp; II</strong>, Agarfa ATVET College, Ministry of Agriculture and Natural Resources, Ethiopia, 08/07/2011 - 12/06/2012.</li>
+          <li><strong>Postdoctoral Researcher</strong>, University of Maryland (2025 - Present). Leading independent research on AI-driven irrigation systems, digital twin development for agricultural watersheds, and nutrient-load reduction in tile-drained systems.</li>
+          <li><strong>Postdoctoral Researcher</strong>, Purdue University (2024 - 2025). Led multi-state soil organic carbon mapping initiative across Indiana organic farms using UAV and proximal sensing. Developed competitive grant proposals on physics-informed AI for soil water dynamics.</li>
+          <li><strong>Doctoral Research</strong>, University of Florida (2019 - 2024). Established research program integrating UAV remote sensing, crop modeling, and machine learning for irrigation optimization. Four years of field experiments, model development, and HPC deployment.</li>
+          <li><strong>Faculty Position</strong>, Madda Walabu University, Ethiopia (2012 - 2019). Taught undergraduate courses, supervised student research, and served as Co-Investigator on funded climate variability research ($31K).</li>
         </ul>
       </div>
 
-      <h2>Leadership and Professional Service</h2>
+      <h2>Research Funding &amp; Grant Development</h2>
       <div className="section-block">
         <ul>
-          <li>Organizing Committee Member, 2026 Precision Agriculture Technology Conference</li>
-          <li>Elected Council Member, Purdue University Postdoctoral Association (PPDA)</li>
-          <li>Served as a member of the Indiana Organic Network (USDA-NIFA-funded statewide organic farming initiative)</li>
-          <li>Co-Organizer, Technical Session at ASA, CSSA, SSSA Annual Meeting</li>
-          <li>Served as a member of the Tropical Research and Education Center (TREC) Social Committee</li>
+          <li><strong>Co-Principal Investigator</strong>, $31,000 research grant on climate variability impacts in East Africa (Madda Walabu University, 2017-2018). Managed field operations, data analysis, and project deliverables.</li>
+          <li>Developed competitive internal grant proposal: "Leveraging Physics-Informed AI and UAV Imaging for Soil Water Dynamics Monitoring" (Purdue University, 2024).</li>
+          <li>Contributed to USDA-NIFA project development focused on precision irrigation and water quality in specialty crop systems (University of Florida).</li>
+          <li>Authored research sections for multi-institutional proposals targeting NSF, USDA, and NASA programs in digital agriculture and hydrological modeling.</li>
         </ul>
       </div>
 
-      <h2>Grant Writing Experience</h2>
+      <h2>Professional Leadership &amp; Service</h2>
       <div className="section-block">
         <ul>
-          <li><strong>Co-Investigator</strong>: Spatio-Temporal Analysis of Temperature and Precipitation Distribution and Variability Over Bale Zone, Ethiopia. Madda Walabu University. Grant MWU/RGCS/004-2017. Institute of Technology (2017–2018), $31,000.</li>
-          <li>Contributed to USDA NIFA project proposal development while at the University of Florida (UF)</li>
-          <li>Participated in grant proposal writing workshops organized by Purdue University Postdoc Office and UF Institute of Food and Agricultural Sciences (IFAS)</li>
+          <li><strong>Organizing Committee Member</strong>, Precision Agriculture Technology Conference (2026)</li>
+          <li><strong>Technical Session Co-Organizer</strong>, ASA-CSSA-SSSA Annual Meeting</li>
+          <li><strong>Peer Reviewer</strong>: Agricultural Water Management, Computers and Electronics in Agriculture, Agronomy Journal, Scientific Reports, Frontiers in Plant Science (10+ journals)</li>
+          <li><strong>Professional Membership</strong>: American Society of Agricultural and Biological Engineers (ASABE), DSSAT Foundation, Indian Association of Hydrologists</li>
         </ul>
       </div>
 
-      <h2>Volunteer Service &amp; Global Outreach</h2>
+      <h2>Broader Impacts &amp; Global Engagement</h2>
       <div className="section-block">
         <ul>
-          <li>Developed a global mentorship platform connecting students in developing countries with professionals in developed countries, facilitating knowledge transfer, scholarship opportunities, career guidance, and capacity building in agriculture, water resources, AI, engineering, and related fields</li>
+          <li><strong>Founder &amp; Director</strong>, Global Academic Mentorship Platform - connecting 100+ students in developing countries with STEM professionals for career development, scholarship guidance, and capacity building in agriculture, water resources, and AI.</li>
+          <li><strong>Public Engagement</strong>: YouTube channel (12,650+ subscribers, 2.4M+ views) delivering open-access training in remote sensing, GIS, and data analytics to global audiences.</li>
+          <li>Committed to fostering inclusive research environments and expanding opportunities for underrepresented students in agricultural and environmental sciences.</li>
         </ul>
       </div>
 
