@@ -9,7 +9,7 @@ export default function Teaching() {
 
       <h2>Teaching Philosophy &amp; Approach</h2>
       <div className="section-block">
-        <p>I prepare students to solve complex agricultural and environmental challenges through hands-on training in advanced sensing technologies, computational modeling, and data-driven decision-making. My pedagogical approach integrates theoretical foundations with practical field and laboratory experiences, emphasizing research reproducibility, ethical use of AI tools, and interdisciplinary problem-solving. Students gain proficiency in UAV operations, HPC workflows, sensor deployment, and translating research findings into stakeholder-ready tools.</p>
+        <p>I am committed to preparing students to solve complex agricultural and environmental challenges through hands-on training in advanced sensing technologies, computational modeling, and data-driven decision-making. My pedagogical approach integrates theoretical foundations with practical field and laboratory experiences, emphasizing research reproducibility, ethical use of AI tools, and interdisciplinary problem-solving. Students will gain proficiency in UAV operations, HPC workflows, sensor deployment, and translating research findings into stakeholder-ready tools.</p>
       </div>
 
       <h2>Graduate Research Mentorship</h2>

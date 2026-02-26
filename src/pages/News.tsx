@@ -10,11 +10,11 @@ export default function News() {
       <ul className="news-list">
         <li>
           <span className="news-date">2025 - Present</span>
-          <strong>Postdoctoral Researcher</strong>, University of Maryland. Leading research on AI-driven irrigation systems, digital twin development for precision agriculture, and nutrient management in the Chesapeake Bay watershed.
+          <strong>Postdoctoral Researcher</strong>, University of Maryland. Conducting research on AI-driven irrigation systems, digital twin development for precision agriculture, and nutrient management in the Chesapeake Bay watershed.
         </li>
         <li>
           <span className="news-date">2024 - 2025</span>
-          <strong>Postdoctoral Researcher</strong>, Purdue University. Led statewide soil organic carbon mapping initiative and developed grant proposals on physics-informed AI for agricultural systems.
+          <strong>Postdoctoral Researcher</strong>, Purdue University. Led statewide soil organic carbon mapping initiative and developed competitive grant proposals on physics-informed AI for agricultural systems.
         </li>
       </ul>
 

@@ -37,11 +37,11 @@ export default function Home() {
       </div>
 
       <h2>Research Overview</h2>
-      <p>Dr. Teshome leads an interdisciplinary research program at the nexus of artificial intelligence, precision agriculture, and hydrological systems. His work integrates physics-based hydrological models with machine learning to address critical challenges in agricultural water management, soil carbon dynamics, and climate adaptation. The research program spans four interconnected thematic areas: <strong>Climate-Smart Agricultural Water Management</strong>, <strong>Hydrological and Soil System Modeling</strong>, <strong>AI and Digital Agriculture Technologies</strong>, and <strong>Multi-Scale Remote and Proximal Sensing for Agroecosystems</strong>.</p>
+      <p>Dr. Teshome's research program operates at the nexus of artificial intelligence, precision agriculture, and hydrological systems. His work integrates physics-based hydrological models with machine learning to address critical challenges in agricultural water management, soil carbon dynamics, and climate adaptation. The research program spans four interconnected thematic areas: <strong>Climate-Smart Agricultural Water Management</strong>, <strong>Hydrological and Soil System Modeling</strong>, <strong>AI and Digital Agriculture Technologies</strong>, and <strong>Multi-Scale Remote and Proximal Sensing for Agroecosystems</strong>.</p>
       
-      <p>His lab develops operational decision support systems that translate cutting-edge research into deployable tools for stakeholders. Current projects include: (1) IoT-enabled digital twins for precision irrigation and nutrient management on HPC infrastructure, (2) physics-informed AI models for rootzone soil moisture and evapotranspiration prediction, (3) high-throughput phenotyping platforms integrating UAV imagery with crop modeling, (4) AI-driven disease detection systems for crops and livestock, and (5) coastal groundwater vulnerability assessment under climate change. His AgriSenAI software platform has established a foundation for scalable, automated precision agriculture workflows.</p>
+      <p>His research develops operational decision support systems that translate cutting-edge science into deployable tools for stakeholders. Recent and ongoing work includes: (1) IoT-enabled digital twins for precision irrigation and nutrient management on HPC infrastructure, (2) physics-informed AI models for rootzone soil moisture and evapotranspiration prediction, (3) high-throughput phenotyping platforms integrating UAV imagery with crop modeling, (4) AI-driven disease detection systems for crops and livestock, and (5) coastal groundwater vulnerability assessment under climate change. His AgriSenAI software platform provides a foundation for scalable, automated precision agriculture workflows.</p>
       
-      <p>With 23 peer-reviewed publications (h-index: 14), a proven record of leading funded research ($31K as Co-PI), and experience mentoring graduate researchers, Dr. Teshome is positioned to establish a nationally competitive research program. His research aligns with USDA-NIFA (precision agriculture, water quality), NSF (cyber-physical systems, AI for environmental sensing), NASA (remote sensing applications), and DOE (water-energy nexus) funding priorities, with strong potential for sustained extramural support in soil-water-crop system intelligence.</p>
+      <p>With 23 peer-reviewed publications (h-index: 14), a proven record of leading funded research ($31K as Co-PI), and experience mentoring graduate researchers, Dr. Teshome is prepared to establish a nationally competitive research program. His research aligns with USDA-NIFA (precision agriculture, water quality), NSF (cyber-physical systems, AI for environmental sensing), NASA (remote sensing applications), and DOE (water-energy nexus) funding priorities, with strong potential for sustained extramural support in soil-water-crop system intelligence.</p>
 
       <div style={{ display: 'flex', gap: '1.5rem', margin: '2rem 0', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'flex-start' }}>
         <div style={{ flex: '1 1 45%', minWidth: '300px', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
@@ -76,10 +76,10 @@ export default function Home() {
       <h2>Research Appointments</h2>
       <div className="section-block">
         <ul>
-          <li><strong>Postdoctoral Researcher</strong>, University of Maryland (2025 - Present). Leading independent research on AI-driven irrigation systems, digital twin development for agricultural watersheds, and nutrient-load reduction in tile-drained systems.</li>
+          <li><strong>Postdoctoral Researcher</strong>, University of Maryland (2025 - Present). Conducting independent research on AI-driven irrigation systems, digital twin development for agricultural watersheds, and nutrient-load reduction in tile-drained systems.</li>
           <li><strong>Postdoctoral Researcher</strong>, Purdue University (2024 - 2025). Led multi-state soil organic carbon mapping initiative across Indiana organic farms using UAV and proximal sensing. Developed competitive grant proposals on physics-informed AI for soil water dynamics.</li>
-          <li><strong>Doctoral Research</strong>, University of Florida (2019 - 2024). Established research program integrating UAV remote sensing, crop modeling, and machine learning for irrigation optimization. Four years of field experiments, model development, and HPC deployment.</li>
-          <li><strong>Faculty Position</strong>, Madda Walabu University, Ethiopia (2012 - 2019). Taught undergraduate courses, supervised student research, and served as Co-Investigator on funded climate variability research ($31K).</li>
+          <li><strong>Doctoral Research</strong>, University of Florida (2019 - 2024). Conducted integrated research program combining UAV remote sensing, crop modeling, and machine learning for irrigation optimization. Four years of independent field experiments, model development, and HPC deployment.</li>
+          <li><strong>Faculty Position</strong>, Madda Walabu University, Ethiopia (2012 - 2019). Taught undergraduate courses, supervised student research, and served as Co-Principal Investigator on funded climate variability research ($31K).</li>
         </ul>
       </div>
 
@@ -106,9 +106,9 @@ export default function Home() {
       <h2>Broader Impacts &amp; Global Engagement</h2>
       <div className="section-block">
         <ul>
-          <li><strong>Founder &amp; Director</strong>, Global Academic Mentorship Platform - connecting 100+ students in developing countries with STEM professionals for career development, scholarship guidance, and capacity building in agriculture, water resources, and AI.</li>
-          <li><strong>Public Engagement</strong>: YouTube channel (12,650+ subscribers, 2.4M+ views) delivering open-access training in remote sensing, GIS, and data analytics to global audiences.</li>
-          <li>Committed to fostering inclusive research environments and expanding opportunities for underrepresented students in agricultural and environmental sciences.</li>
+          <li><strong>Global Mentorship Initiative</strong>: Developed and maintain a platform connecting 100+ students in developing countries with STEM professionals for career development, scholarship guidance, and capacity building in agriculture, water resources, and AI.</li>
+          <li><strong>Public Engagement</strong>: Established YouTube channel (12,650+ subscribers, 2.4M+ views) delivering open-access training in remote sensing, GIS, and data analytics to global audiences.</li>
+          <li><strong>Commitment to Diversity</strong>: Prepared to foster inclusive research environments and expand opportunities for underrepresented students in agricultural and environmental sciences through mentorship and international collaborations.</li>
         </ul>
       </div>
 
